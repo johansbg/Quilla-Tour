@@ -1,33 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono|Work+Sans:400,700&display=swap');
+
+
 /*home*/
-body {
-    font-family: arial, helvetica;
-  }
-  
-  h3 {
-    font-size: 5em;
-    text-align: center;
-    color: blue;
-    font-weight: 700;
-  }
-  
-  .section1 {
-    color: blue;
-    background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg1.jpg);
-    background-size: cover;
-  }
-  
-  .fp-section {
-    text-align: center;
-  }
-  
-  button {
-    padding: 0.93em 1.87em;
-    background: #35495e;
-    border-radius: 5px;
-    border-color: transparent;
-    display: block;
-    color: #fff;
-    margin: 0 auto;
-    cursor: pointer;
-    font-size: 0.85em;
-  }
+* {
+  font-family: 'Work Sans', 'Roboto Mono', sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section1 {
+  background-image: url(./../img/backgroundHomeS1.jpg);
+  background-size: cover;
+}
+
+.section2-1 {
+  background-image: url(./../img/backgroundHomeS2-1.jpg);
+  background-size: cover;
+}
+
+.section2-2 {
+  background-image: url(./../img/backgroundHomeS2-2.jpg);
+  background-size: cover;
+}
+
+.section2-3 {
+  background-image: url(./../img/backgroundHomeS2-3.jpg);
+  background-size: cover;
+}
+
+.colorCardGreen {
+  width: 504px;
+  height: 143px;
+  background: #AAD87F;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.textCardCenter {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 60px;
+  color: #FFFFFF;
+}
+
+.colorCardWhite {
+  width: 1126px;
+  height: 170px;
+  margin-top: 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.colorCardGreen2 {
+  width: 200px;
+  height: 190px;
+  margin-top: 40px;
+  background: #AAD87F;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.textCardWhite1{
+  text-align: left;
+  margin-top: 35px;
+  margin-left: 40px;
+  line-height: 95%;
+  color: #142D3F;
+}
+
+.textCardWhite1{
+  font-size: 21px;
+  color: #142D3F;
+}
+
+.author{
+  padding-top: 10px;
+  text-align: right;
+}

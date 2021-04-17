@@ -3,9 +3,9 @@ import Home from "./home";
 import {
     Switch,
     Route,
-    Redirect,
-    withRouter
+    Redirect
 } from "react-router-dom";
+import '../fontawesome';
 
 function main() {
   return (
