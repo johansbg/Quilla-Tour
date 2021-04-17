@@ -21,11 +21,22 @@ object-assign
   */
 
 /*!
+  Copyright (c) 2018 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+
+/*!
  * @fullpage/react-fullpage 0.1.19
  * https://github.com/alvarotrigo/react-fullpage
  * @license https://github.com/alvarotrigo/react-fullpage#license
  *
  * Copyright (C) 2018 alvarotrigo.com - A project by Alvaro Trigo & Michael Walker
+ */
+
+/*!
+ * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 
 /*!
