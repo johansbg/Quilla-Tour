@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono|Work+Sans:400,700&display=swap');
-
-
 /*home*/
+
 * {
   font-family: 'Work Sans', 'Roboto Mono', sans-serif;
 }
@@ -69,7 +68,7 @@ h3 {
   border-radius: 30px;
 }
 
-.textCardWhite1{
+.textCardWhite1 {
   text-align: left;
   margin-top: 35px;
   margin-left: 40px;
@@ -77,13 +76,16 @@ h3 {
   color: #142D3F;
 }
 
-.textCardWhite1{
+.textCardWhite1 {
   font-size: 21px;
   color: #142D3F;
 }
 
-.author{
+.author {
   padding-top: 10px;
   text-align: right;
 }
+
 /*Perfil*/
+
+/*Luis Aznar*/
