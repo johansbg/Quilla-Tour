@@ -7,8 +7,8 @@ import "../fontawesome";
 function main() {
   return (
     <Switch>
-      <Route exact path="/Quilla-Tour" component={Home}/>
-      <Route exact path="/Quilla-Tour/prueba" component={Prueba}/>
+      <Route exact path="/Quilla-Tour" component={Home} />
+      <Route exact path="/Quilla-Tour/prueba" component={Prueba} />
       <Redirect to="/Quilla-Tour" />
     </Switch>
   );
