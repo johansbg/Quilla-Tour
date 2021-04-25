@@ -3,8 +3,8 @@ import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverf
 import ReactFullpage from "@fullpage/react-fullpage";
 
 //Components
-import SectionOneComponent from "../components/home/sectionOneComponent";
-import NavbarComponent from "../components/navbarComponent";
+import SectionOneComponent from "../components/home/SectionOneComponent";
+import NavbarComponent from "../components/NavbarComponent";
 
 function Home() {
   const onLeave = (origin, destination, direction) => {

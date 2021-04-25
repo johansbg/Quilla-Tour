@@ -27,7 +27,7 @@ h3 {
 }
 
 .section2-3 {
-  background-image: url(./../img/backgroundHomeS2-3.jpg);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/my-pocket-app.appspot.com/o/LPG.JPG?alt=media&token=754fe3e4-587a-4b26-b019-3a96d6634d61);
   background-size: cover;
 }
 
@@ -85,6 +85,14 @@ h3 {
   padding-top: 10px;
   text-align: right;
 }
+
+/*Leaft*/
+
+.main {
+  height: 100vh;
+  width: 100%;
+}
+
 /*Perfil*/
 
 /* Carlos */

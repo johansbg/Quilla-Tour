@@ -2,7 +2,7 @@ import React from "react";
 
 //Components
 
-function pruebaComponent() {
+function PruebaComponent() {
   const data = [
     {
       name: "Luis",
@@ -30,4 +30,4 @@ function pruebaComponent() {
   );
 }
 
-export default pruebaComponent;
+export default PruebaComponent;
