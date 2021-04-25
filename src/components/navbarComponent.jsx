@@ -7,7 +7,7 @@ import {
   Nav,
   NavItem,
 } from "reactstrap";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function NavbarComponent() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -25,7 +25,7 @@ function NavbarComponent() {
               <NavLink to="/">Inicio</NavLink>
             </NavItem>
             <NavItem className="mr-5">
-              <NavLink to="/">Explora-Barranquilla</NavLink>
+              <NavLink to="/Quilla-Tour/prueba">Explora-Barranquilla</NavLink>
             </NavItem>
             <NavItem className="mr-5">
               <NavLink to="/">Comunidad</NavLink>
