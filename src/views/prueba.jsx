@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'reactstrap';
 //Components
 
 
-function prueba() {
+function Prueba() {
 
   const position = [11.033080725079746, -74.83127455576785]
   const position1 = [10.98982992742527, -74.80986988979193]
@@ -50,4 +50,4 @@ function prueba() {
   );
 }
 
-export default prueba;
+export default Prueba;

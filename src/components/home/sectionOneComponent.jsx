@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container, Row, Col } from 'reactstrap';
 
-function sectionOneComponent() {
+function SectionOneComponent() {
   return (
     <Container>
       <Row className="center">
@@ -37,4 +37,4 @@ function sectionOneComponent() {
   );
 }
 
-export default sectionOneComponent;
+export default SectionOneComponent;
