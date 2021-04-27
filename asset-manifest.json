@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Quilla-Tour/static/css/main.00a8ec3f.chunk.css",
-    "main.js": "/Quilla-Tour/static/js/main.027de2b9.chunk.js",
-    "main.js.map": "/Quilla-Tour/static/js/main.027de2b9.chunk.js.map",
-    "runtime-main.js": "/Quilla-Tour/static/js/runtime-main.af4073be.js",
-    "runtime-main.js.map": "/Quilla-Tour/static/js/runtime-main.af4073be.js.map",
+    "main.css": "/Quilla-Tour/static/css/main.19a34b6b.chunk.css",
+    "main.js": "/Quilla-Tour/static/js/main.8f31a27b.chunk.js",
+    "main.js.map": "/Quilla-Tour/static/js/main.8f31a27b.chunk.js.map",
+    "runtime-main.js": "/Quilla-Tour/static/js/runtime-main.d6ea6e15.js",
+    "runtime-main.js.map": "/Quilla-Tour/static/js/runtime-main.d6ea6e15.js.map",
     "static/css/2.150d169a.chunk.css": "/Quilla-Tour/static/css/2.150d169a.chunk.css",
-    "static/js/2.08931249.chunk.js": "/Quilla-Tour/static/js/2.08931249.chunk.js",
-    "static/js/2.08931249.chunk.js.map": "/Quilla-Tour/static/js/2.08931249.chunk.js.map",
-    "static/js/3.e9cf42da.chunk.js": "/Quilla-Tour/static/js/3.e9cf42da.chunk.js",
-    "static/js/3.e9cf42da.chunk.js.map": "/Quilla-Tour/static/js/3.e9cf42da.chunk.js.map",
+    "static/js/2.92e5dbe4.chunk.js": "/Quilla-Tour/static/js/2.92e5dbe4.chunk.js",
+    "static/js/2.92e5dbe4.chunk.js.map": "/Quilla-Tour/static/js/2.92e5dbe4.chunk.js.map",
+    "static/js/3.0e77440a.chunk.js": "/Quilla-Tour/static/js/3.0e77440a.chunk.js",
+    "static/js/3.0e77440a.chunk.js.map": "/Quilla-Tour/static/js/3.0e77440a.chunk.js.map",
     "index.html": "/Quilla-Tour/index.html",
     "static/css/2.150d169a.chunk.css.map": "/Quilla-Tour/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.00a8ec3f.chunk.css.map": "/Quilla-Tour/static/css/main.00a8ec3f.chunk.css.map",
-    "static/js/2.08931249.chunk.js.LICENSE.txt": "/Quilla-Tour/static/js/2.08931249.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/Quilla-Tour/static/media/backgroundHomeS2-3.0c61a042.jpg"
+    "static/css/main.19a34b6b.chunk.css.map": "/Quilla-Tour/static/css/main.19a34b6b.chunk.css.map",
+    "static/js/2.92e5dbe4.chunk.js.LICENSE.txt": "/Quilla-Tour/static/js/2.92e5dbe4.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/Quilla-Tour/static/media/backgroundHomeS2-2.f8db20f6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.af4073be.js",
+    "static/js/runtime-main.d6ea6e15.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.08931249.chunk.js",
-    "static/css/main.00a8ec3f.chunk.css",
-    "static/js/main.027de2b9.chunk.js"
+    "static/js/2.92e5dbe4.chunk.js",
+    "static/css/main.19a34b6b.chunk.css",
+    "static/js/main.8f31a27b.chunk.js"
   ]
 }
