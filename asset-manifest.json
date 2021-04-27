@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Quilla-Tour/static/css/main.19a34b6b.chunk.css",
-    "main.js": "/Quilla-Tour/static/js/main.8f31a27b.chunk.js",
-    "main.js.map": "/Quilla-Tour/static/js/main.8f31a27b.chunk.js.map",
+    "main.js": "/Quilla-Tour/static/js/main.42d6adff.chunk.js",
+    "main.js.map": "/Quilla-Tour/static/js/main.42d6adff.chunk.js.map",
     "runtime-main.js": "/Quilla-Tour/static/js/runtime-main.d6ea6e15.js",
     "runtime-main.js.map": "/Quilla-Tour/static/js/runtime-main.d6ea6e15.js.map",
     "static/css/2.150d169a.chunk.css": "/Quilla-Tour/static/css/2.150d169a.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.92e5dbe4.chunk.js",
     "static/css/main.19a34b6b.chunk.css",
-    "static/js/main.8f31a27b.chunk.js"
+    "static/js/main.42d6adff.chunk.js"
   ]
 }
