@@ -25,7 +25,7 @@ function NavbarComponent() {
               <NavLink to="/">Inicio</NavLink>
             </NavItem>
             <NavItem className="mr-5">
-              <NavLink to="/Quilla-Tour/prueba">Explora-Barranquilla</NavLink>
+              <NavLink to="/prueba">Explora-Barranquilla</NavLink>
             </NavItem>
             <NavItem className="mr-5">
               <NavLink to="/">Comunidad</NavLink>
