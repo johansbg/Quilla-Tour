@@ -3,22 +3,30 @@ import "@mobiscroll/react/dist/css/mobiscroll.min.css";
 import React from "react"
 import { Eventcalendar, getJson, toast, localeEs } from '@mobiscroll/react';
 
-function Agenda() {
+function Agenda(props) {
 
-    const evento = [{"start":"2021-05-03T08:00:00.000Z","end":"2021-05-06T17:00:00.000Z"}];
+    const evento = [{"start":"2021-05-03T08:00:00.000Z","end":"2021-05-06T17:00:00.000Z","title":"Business of Software Conference","color":"#ff6d42"}];
 
-    const [myEvents, setEvents] = useState([]);
-    useEffect(() => {
-        getJson('https://trial.mobiscroll.com/events/?vers=5', (events) => {
-            setEvents(evento);
-        }, 'jsonp');
-    }, []);
-    
+    const [myEvents, setEvents] = useState(evento);
+    // useEffect(() => {
+    //     getJson('https://trial.mobiscroll.com/events/?vers=5', (evento) => {
+    //         setEvents(evento);
+    //     }, 'jsonp');
+    // }, []);
+
+
+    const action = () =>{
+        props.history.push("/prueba")
+    }
+
     const onEventClick = useCallback((event) => {
         toast({
+            
             message: event.event.title,
             duration: 10000
         });
+        console.log("hola!")
+        action()
     }, []);
     
     const view = useMemo(() => {

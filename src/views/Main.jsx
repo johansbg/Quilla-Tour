@@ -3,7 +3,7 @@ import React from "react";
 import Home from "./Home";
 import Prueba from "./Prueba";
 import Agenda from "./Agenda";
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route, Redirect, withRouter } from "react-router-dom";
 import "../fontawesome";
 
 function Main() {
@@ -17,4 +17,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default withRouter(Main);
