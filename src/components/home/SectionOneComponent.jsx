@@ -1,39 +1,36 @@
 import React from "react";
 
 import { Container, Row, Col } from 'reactstrap';
+import {
+  Button
+} from "reactstrap";
 
-function SectionOneComponent() {
+
+function SectionOneComponent(props) {
+  
   return (
+    <>
     <Container>
-      <Row className="center">
+      <Row>
         <Col>
-          <div className="colorCardGreen">
-            <div className="textCardCenter">
+          <div className="CardSectionOne">
+            <span className="title">
               BARRANQUILLA
-            </div>
+            </span>
           </div>
-        </Col>
-        <Col xs="10">
-          <div className="colorCardWhite">
-            <Row>
-              <Col xs="4">
-                <div className="textCardWhite1">
-                  <p style={{fontSize:"21px"}}>Barranquilla, quien no te conoce sueña contigo, y quien te conoce nunca te olvida</p>  
-                  <div className="author">
-                    <p style={{fontSize:"14px"}}>--César Paragüita Morales</p> 
-                  </div>
-                </div>                                  
-              </Col>
-            </Row>
+          <div className="CardBgSectionOne">
+              <span className="message">
+                  Descubre esta hermosa cuidad con Quilla Tour el servicio que contiene toda la informacion que necesitas.
+              </span>
+              <br/>
           </div>
-        </Col>
-        <Col xs="2">
-          <div className="colorCardGreen2">
-            <h2></h2>
+          <div className="Button">
+            <Button onClick={() => props.fullpageApi.moveSectionDown()} size="lg" style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }} > DESCRUBRIR MAS </Button>
           </div>
         </Col>
       </Row>
     </Container>
+    </>
   );
 }
 

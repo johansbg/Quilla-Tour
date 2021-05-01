@@ -18,6 +18,7 @@ function Home() {
     <div>
       <NavbarComponent />
       <ReactFullpage
+        navigation
         scrollOverflow={true}
         onLeave={onLeave.bind(this)}
         afterLoad={afterLoad.bind(this)}
@@ -27,7 +28,7 @@ function Home() {
           return (
             <div id="fullpage-wrapper">
               <div className="section section1">
-                <SectionOneComponent />
+                <SectionOneComponent fullpageApi={fullpageApi} />
               </div>
               <div className="section">
                 <div className="slide section2-1">
@@ -39,6 +40,9 @@ function Home() {
                 <div className="slide section2-3">
                   <h3>Slide 2.3</h3>
                 </div>
+              </div>
+              <div className="section section3">
+                  <h3>Contactanos</h3>
               </div>
             </div>
           );
