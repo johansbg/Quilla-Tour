@@ -4,6 +4,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 
 //Components
 import SectionOneComponent from "../components/home/SectionOneComponent";
+import SectionTwoOneComponent from "../components/home/SectionTwoOneComponent";
 import NavbarComponent from "../components/NavbarComponent";
 
 function Home() {
@@ -18,7 +19,6 @@ function Home() {
     <div>
       <NavbarComponent />
       <ReactFullpage
-        navigation
         scrollOverflow={true}
         onLeave={onLeave.bind(this)}
         afterLoad={afterLoad.bind(this)}
@@ -32,13 +32,13 @@ function Home() {
               </div>
               <div className="section">
                 <div className="slide section2-1">
-                  <h3>Slide 2.1</h3>
+                  <SectionTwoOneComponent />
                 </div>
                 <div className="slide section2-2">
-                  <h3>Slide 2.2</h3>
+                  <SectionTwoOneComponent />
                 </div>
                 <div className="slide section2-3">
-                  <h3>Slide 2.3</h3>
+                  <SectionTwoOneComponent />
                 </div>
               </div>
               <div className="section section3">

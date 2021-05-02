@@ -51,7 +51,7 @@ function NavbarComponent() {
               </DropdownMenu>
             </Dropdown>
             <NavItem  className=" mr-5">
-            <Button style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }} > Iniciar Sesion </Button>
+            <Button outline style={{ color:"#f2f2f2" ,borderColor:"#f2f2f2" }} > Iniciar Sesion </Button>
             </NavItem>
           </Nav>
         </Collapse>
