@@ -25,7 +25,7 @@ function SectionOneComponent(props) {
               <br/>
           </div>
           <div className="Button">
-            <Button onClick={() => props.fullpageApi.moveSectionDown()} size="lg" style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }} > DESCRUBRIR MAS </Button>
+            <Button size="lg" onClick={() => props.fullpageApi.moveSectionDown()}  style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }} > DESCRUBRIR MAS </Button>
           </div>
         </Col>
       </Row>
