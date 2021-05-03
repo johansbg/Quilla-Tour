@@ -4,6 +4,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 
 //Components
 import SectionOneComponent from "../components/home/SectionOneComponent";
+import SectionTwoOneComponent from "../components/home/SectionTwoOneComponent";
 import NavbarComponent from "../components/NavbarComponent";
 
 function Home() {
@@ -27,18 +28,21 @@ function Home() {
           return (
             <div id="fullpage-wrapper">
               <div className="section section1">
-                <SectionOneComponent />
+                <SectionOneComponent fullpageApi={fullpageApi} />
               </div>
               <div className="section">
                 <div className="slide section2-1">
-                  <h3>Slide 2.1</h3>
+                  <SectionTwoOneComponent />
                 </div>
                 <div className="slide section2-2">
-                  <h3>Slide 2.2</h3>
+                  <SectionTwoOneComponent />
                 </div>
                 <div className="slide section2-3">
-                  <h3>Slide 2.3</h3>
+                  <SectionTwoOneComponent />
                 </div>
+              </div>
+              <div className="section section3">
+                  <h3>Contactanos</h3>
               </div>
             </div>
           );
