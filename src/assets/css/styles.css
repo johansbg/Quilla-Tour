@@ -44,7 +44,7 @@
 }
 
 .section3 {
-  background-color: #99b2dd;
+  background-color: #b34c3d;
   background-size: cover;
 }
 
@@ -87,7 +87,7 @@
   }
 }
 
-/*Section 2*/
+/*Section 2 - 1*/
 
 .CardBgSectionTwo{
   text-align: center;
@@ -109,7 +109,7 @@
   border: #2e282a;
   border-style: dotted;
   padding: 1%;
-  transform: rotate(-10deg);
+  transform: rotate(-5deg);
 }
 
 .CardImageContent{
@@ -119,7 +119,7 @@
   border: #2e282a;
   border-style: double;
   padding: 3%;
-  transform: rotate(10deg);
+  transform: rotate(5deg);
 }
 
 .CardImageContent > img{
@@ -192,6 +192,118 @@
   }
   
   .ButtonSec2{
+    margin-top: 25px;
+    text-align: center;
+  }
+}
+
+/*Section 2 - 2*/
+
+.CardBgSectionTwoTwo{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.titleSection2Two{
+  color: #f2f2f2;
+  font-size: 4em;
+}
+
+.sectionContentTwo{
+  margin-bottom: 80px;
+}
+
+.CardImageBorderTwo{
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  border: #2e282a;
+  border-style: dotted;
+  padding: 1%;
+  transform: rotate(5deg);
+}
+
+.CardImageContentTwo{
+  text-align: center;
+  background-color: #ffb703;
+  border-radius: 30px;
+  border: #2e282a;
+  border-style: double;
+  padding: 3%;
+  transform: rotate(-5deg);
+}
+
+.videoIframeSec2 {
+  width: 100%;
+  border-radius: 30px;
+  height: 250px;
+}
+
+.CardBgSectionTwoTextTwo{
+  margin-top: 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 5%;
+}
+
+.CardBgSectionTwoTextTwo > .text{
+  color: #000;
+  font-size: 1.4em;
+}
+
+.ButtonSec2Two{
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  
+  .mobileReduccionTwo{
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .CardBgSectionTwoTwo{
+    margin-bottom: 25px;
+  }
+  
+  .titleSection2Two{
+    color: #f2f2f2;
+    font-size: 2em;
+  }
+
+  .CardImageBorderTwo{
+    margin-bottom: 30px;
+  }
+
+  .sectionContentTwo{
+    margin-bottom: 30px;
+  }
+  
+  .videoIframeSec2{
+    width: 100%;
+    border-radius: 30px;
+    height: 120px;
+  }
+  
+  .CardBgSectionTwoTextTwo{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 5%;
+  }
+  
+  .CardBgSectionTwoTextTwo > .text{
+    color: #000;
+    font-size: 1em;
+  }
+  
+  .ButtonSec2Two{
     margin-top: 25px;
     text-align: center;
   }
