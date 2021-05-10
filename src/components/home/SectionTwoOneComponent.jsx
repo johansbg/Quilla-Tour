@@ -36,7 +36,7 @@ function SectionTwoOneComponent(props) {
                 <br/>
             </div>
             <div className="ButtonSec2 mobileReduccion">
-                <Button onClick={() => props.fullpageApi.moveSectionDown()} size="lg" style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > EXPLORA LOS SITIOS TURISTICOS Y CULTURALES </Button>
+                <Button size="lg" style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > EXPLORA LOS SITIOS TURISTICOS Y CULTURALES </Button>
             </div>
         </Col>
       </Row>

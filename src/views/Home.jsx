@@ -5,6 +5,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 //Components
 import SectionOneComponent from "../components/home/SectionOneComponent";
 import SectionTwoOneComponent from "../components/home/SectionTwoOneComponent";
+import SectionTwoTwoComponent from "../components/home/SectionTwoTwoComponent";
 import NavbarComponent from "../components/NavbarComponent";
 
 function Home() {
@@ -35,7 +36,7 @@ function Home() {
                   <SectionTwoOneComponent />
                 </div>
                 <div className="slide section2-2">
-                  <SectionTwoOneComponent />
+                  <SectionTwoTwoComponent />
                 </div>
                 <div className="slide section2-3">
                   <SectionTwoOneComponent />
