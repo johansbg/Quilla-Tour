@@ -6,6 +6,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import SectionOneComponent from "../components/home/SectionOneComponent";
 import SectionTwoOneComponent from "../components/home/SectionTwoOneComponent";
 import SectionTwoTwoComponent from "../components/home/SectionTwoTwoComponent";
+import SectionThreeComponent from "../components/home/SectionThreeComponent";
 import NavbarComponent from "../components/NavbarComponent";
 
 function Home() {
@@ -43,7 +44,7 @@ function Home() {
                 </div>
               </div>
               <div className="section section3">
-                  <h3>Contactanos</h3>
+                  <h3><SectionThreeComponent /></h3>
               </div>
             </div>
           );
