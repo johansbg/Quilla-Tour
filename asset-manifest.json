@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Quilla-Tour/static/css/main.8cb7bcfd.chunk.css",
-    "main.js": "/Quilla-Tour/static/js/main.1013efd9.chunk.js",
-    "main.js.map": "/Quilla-Tour/static/js/main.1013efd9.chunk.js.map",
+    "main.css": "/Quilla-Tour/static/css/main.461aedfd.chunk.css",
+    "main.js": "/Quilla-Tour/static/js/main.af1dcee7.chunk.js",
+    "main.js.map": "/Quilla-Tour/static/js/main.af1dcee7.chunk.js.map",
     "runtime-main.js": "/Quilla-Tour/static/js/runtime-main.1f22cc82.js",
     "runtime-main.js.map": "/Quilla-Tour/static/js/runtime-main.1f22cc82.js.map",
     "static/css/2.150d169a.chunk.css": "/Quilla-Tour/static/css/2.150d169a.chunk.css",
-    "static/js/2.d17a96e7.chunk.js": "/Quilla-Tour/static/js/2.d17a96e7.chunk.js",
-    "static/js/2.d17a96e7.chunk.js.map": "/Quilla-Tour/static/js/2.d17a96e7.chunk.js.map",
+    "static/js/2.e5b486df.chunk.js": "/Quilla-Tour/static/js/2.e5b486df.chunk.js",
+    "static/js/2.e5b486df.chunk.js.map": "/Quilla-Tour/static/js/2.e5b486df.chunk.js.map",
     "static/js/3.1f0d0e70.chunk.js": "/Quilla-Tour/static/js/3.1f0d0e70.chunk.js",
     "static/js/3.1f0d0e70.chunk.js.map": "/Quilla-Tour/static/js/3.1f0d0e70.chunk.js.map",
     "index.html": "/Quilla-Tour/index.html",
     "static/css/2.150d169a.chunk.css.map": "/Quilla-Tour/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.8cb7bcfd.chunk.css.map": "/Quilla-Tour/static/css/main.8cb7bcfd.chunk.css.map",
-    "static/js/2.d17a96e7.chunk.js.LICENSE.txt": "/Quilla-Tour/static/js/2.d17a96e7.chunk.js.LICENSE.txt",
+    "static/css/main.461aedfd.chunk.css.map": "/Quilla-Tour/static/css/main.461aedfd.chunk.css.map",
+    "static/js/2.e5b486df.chunk.js.LICENSE.txt": "/Quilla-Tour/static/js/2.e5b486df.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/Quilla-Tour/static/media/backgroundHomeS1.b41d2be7.jpg",
     "static/media/backgroundHomeS2-2.f8db20f6.jpg": "/Quilla-Tour/static/media/backgroundHomeS2-2.f8db20f6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1f22cc82.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.d17a96e7.chunk.js",
-    "static/css/main.8cb7bcfd.chunk.css",
-    "static/js/main.1013efd9.chunk.js"
+    "static/js/2.e5b486df.chunk.js",
+    "static/css/main.461aedfd.chunk.css",
+    "static/js/main.af1dcee7.chunk.js"
   ]
 }
