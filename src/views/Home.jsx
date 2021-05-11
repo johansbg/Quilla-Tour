@@ -5,7 +5,10 @@ import ReactFullpage from "@fullpage/react-fullpage";
 //Components
 import SectionOneComponent from "../components/home/SectionOneComponent";
 import SectionTwoOneComponent from "../components/home/SectionTwoOneComponent";
-import NavbarComponent from "../components/NavbarComponent";
+import SectionTwoTwoComponent from "../components/home/SectionTwoTwoComponent";
+import SectionTwoThreeComponent from "../components/home/SectionTwoThreeComponent";
+import SectionThreeComponent from "../components/home/SectionThreeComponent";
+import NavbarComponent from "../components/home/NavbarComponent";
 
 function Home() {
   const onLeave = (origin, destination, direction) => {
@@ -35,14 +38,14 @@ function Home() {
                   <SectionTwoOneComponent />
                 </div>
                 <div className="slide section2-2">
-                  <SectionTwoOneComponent />
+                  <SectionTwoTwoComponent />
                 </div>
                 <div className="slide section2-3">
-                  <SectionTwoOneComponent />
+                  <SectionTwoThreeComponent />
                 </div>
               </div>
               <div className="section section3">
-                  <h3>Contactanos</h3>
+                  <h3><SectionThreeComponent /></h3>
               </div>
             </div>
           );

@@ -15,7 +15,7 @@ function SectionTwoOneComponent(props) {
         <Col>
           <div className="CardBgSectionTwo">
             <span className="titleSection2">
-                SITIOS TURISTICOS Y CULTURALES
+              <strong>VISITIA SITIOS FAMOSOS</strong>
             </span>
           </div>
         </Col>
@@ -35,8 +35,11 @@ function SectionTwoOneComponent(props) {
                 </span>
                 <br/>
             </div>
-            <div className="ButtonSec2 mobileReduccion">
-                <Button onClick={() => props.fullpageApi.moveSectionDown()} size="lg" style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > EXPLORA LOS SITIOS TURISTICOS Y CULTURALES </Button>
+            <div className="ButtonSec2 mobileReduccion d-none d-sm-block">
+                <Button size="lg" style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > DESCRUBIR LOS SITIOS TURISTICOS Y CULTURALES </Button>
+            </div>
+            <div className="ButtonSec2 mobileReduccion d-block d-sm-none">
+                <Button style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > DESCRUBIR LOS SITIOS TURISTICOS Y CULTURALES </Button>
             </div>
         </Col>
       </Row>
