@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono|Work+Sans:400,700&display=swap');
 
+* {
+  font-family: 'Work Sans', 'Roboto Mono', sans-serif;
+}
+
 /*Navbar Home*/
 
 .NavItem{
@@ -16,10 +20,6 @@
 
 
 /*home*/
-
-* {
-  font-family: 'Work Sans', 'Roboto Mono', sans-serif;
-}
 
 .section1 {
   background-color: #fff1d0;
@@ -305,6 +305,134 @@
   
   .ButtonSec2Two{
     margin-top: 25px;
+    text-align: center;
+  }
+}
+
+/*Section 2-3*/
+.centerText{
+  margin-top: 100px;
+  font-size: 2em;
+  text-align: center;
+  background-color: #ffb703;
+  border-radius: 50px;
+  
+}
+.centerText > .bgNumber{
+  text-align: center;
+  background-color: #f2f2f2;
+  border: #2e282a;
+  border-style: double;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.centerText2{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right:auto;
+}
+
+.img1{
+  text-align: center;
+  width: 100px;
+  background-image: url(./../img/img1Home.jpg);
+  filter: grayscale(30%);
+  background-size: cover;
+  padding: 50%;
+  border-radius: 50px;
+}
+
+.img2{
+  text-align: center;
+  width: 100px;
+  background-image: url(./../img/img2Home.jpg);
+  filter: grayscale(30%);
+  background-size: cover;
+  padding: 50%;
+  border-radius: 50px;
+}
+
+.img3{
+  text-align: center;
+  width: 100px;
+  background-image: url(./../img/img3Home.jpg);
+  filter: grayscale(30%);
+  background-size: cover;
+  padding: 50%;
+  border-radius: 50px;
+}
+
+.img4{
+  text-align: center;
+  width: 100px;
+  background-image: url(./../img/img4Home.jpg);
+  filter: grayscale(30%);
+  background-size: cover;
+  padding: 50%;
+  border-radius: 50px;
+}
+
+.img5{
+  text-align: center;
+  width: 100px;
+  background-image: url(./../img/img5Home.jpg);
+  filter: grayscale(30%);
+  background-size: cover;
+  padding: 50%;
+  border-radius: 50px;
+}
+
+.ButtonSec2Three{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.marginR{
+  margin-right: 1%;
+}
+
+@media (max-width: 1000px) {
+  .mobileReduccionThree{
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .centerText2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right:auto;
+  }
+
+  .img2{
+    text-align: center;
+    width: 100px;
+    background-image: url(./../img/img2Home.jpg);
+    filter: grayscale(30%);
+    background-size: cover;
+    padding: 50%;
+    border-radius: 50px;
+  }
+  .centerText{
+    margin-top: 50px;
+    font-size: 1em;
+    text-align: center;
+    background-color: #ffb703;
+    border-radius: 50px;
+    
+  }
+  .centerText > .bgNumber{
+    padding: 1.3%;
+  }
+  
+  .marginR{
+    margin-right: 1.5%;
+  }
+  .ButtonSec2Three{
+    margin-top: 50px;
     text-align: center;
   }
 }

@@ -6,8 +6,9 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import SectionOneComponent from "../components/home/SectionOneComponent";
 import SectionTwoOneComponent from "../components/home/SectionTwoOneComponent";
 import SectionTwoTwoComponent from "../components/home/SectionTwoTwoComponent";
+import SectionTwoThreeComponent from "../components/home/SectionTwoThreeComponent";
 import SectionThreeComponent from "../components/home/SectionThreeComponent";
-import NavbarComponent from "../components/NavbarComponent";
+import NavbarComponent from "../components/home/NavbarComponent";
 
 function Home() {
   const onLeave = (origin, destination, direction) => {
@@ -40,7 +41,7 @@ function Home() {
                   <SectionTwoTwoComponent />
                 </div>
                 <div className="slide section2-3">
-                  <SectionTwoOneComponent />
+                  <SectionTwoThreeComponent />
                 </div>
               </div>
               <div className="section section3">
