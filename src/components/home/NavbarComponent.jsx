@@ -14,7 +14,7 @@ import {
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logo from './../assets/img/Logo.png';
+import logo from './../../assets/img/Logo.png';
 
 function NavbarComponent() {
   const [isOpen, setIsOpen] = React.useState(false);

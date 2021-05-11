@@ -14,7 +14,7 @@ function SectionTwoTwoComponent(props) {
         <Col>
           <div className="CardBgSectionTwoTwo">
             <span className="titleSection2Two">
-                INFORMACION DE LA CIUDAD
+              <strong>EXPLORA LA HISTORIA</strong>
             </span>
           </div>
         </Col>
@@ -27,8 +27,11 @@ function SectionTwoTwoComponent(props) {
                 </span>
                 <br/>
             </div>
-            <div className="ButtonSec2Two mobileReduccionTwo" >
-                <Button size="lg" style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > DESCUBRIR MAS INFORMACIÓN </Button>
+            <div className="ButtonSec2Two mobileReduccionTwo d-none d-sm-block" >
+                <Button size="lg" style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > EXPLORAR MAS INFORMACIÓN DE LA CIUDAD</Button>
+            </div>
+            <div className="ButtonSec2Two mobileReduccionTwo d-block d-sm-none" >
+                <Button style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > EXPLORAR MAS INFORMACIÓN DE LA CIUDAD</Button>
             </div>
         </Col>
         <Col xs={{ size: 12, order: 1}} md={{ size: 6, order: 2}}>

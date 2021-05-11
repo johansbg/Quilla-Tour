@@ -15,7 +15,7 @@ function SectionOneComponent(props) {
         <Col>
           <div className="CardSectionOne">
             <span className="title">
-              BARRANQUILLA
+              <strong>BARRANQUILLA</strong>
             </span>
           </div>
           <div className="CardBgSectionOne">
@@ -24,8 +24,11 @@ function SectionOneComponent(props) {
               </span>
               <br/>
           </div>
-          <div className="Button">
+          <div className="Button d-none d-sm-block">
             <Button size="lg" onClick={() => props.fullpageApi.moveSectionDown()}  style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }} > DESCRUBRIR MAS </Button>
+          </div>
+          <div className="Button d-none d-block d-sm-none">
+            <Button onClick={() => props.fullpageApi.moveSectionDown()}  style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }} > DESCRUBRIR MAS </Button>
           </div>
         </Col>
       </Row>
