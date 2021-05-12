@@ -1,11 +1,11 @@
 import React from "react";
-import Home from "./home";
-import Prueba from "./prueba";
 import Prueba2 from "./prueba2";
+import Home from "./Home";
+import Prueba from "./Prueba";
 import { Switch, Route, Redirect } from "react-router-dom";
 import "../fontawesome";
 
-function main() {
+function Main() {
   return (
     <Switch>
       <Route exact path="/Quilla-Tour" component={Home}/>
@@ -16,4 +16,4 @@ function main() {
   );
 }
 
-export default main;
+export default Main;
