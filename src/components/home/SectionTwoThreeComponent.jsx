@@ -83,10 +83,14 @@ function SectionOneComponent(props) {
             </Col>
             <Col xs={12}>
                 <div className="ButtonSec2Three mobileReduccion d-none d-sm-block">
-                    <Button size="lg" style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > VER EVENTOS Y AGENDA CULTURAL </Button>
+                    <Link to="/Quilla-Tour/agenda">
+                        <Button size="lg" style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > VER EVENTOS Y AGENDA CULTURAL </Button>
+                    </Link>
                 </div>
                 <div className="ButtonSec2Three mobileReduccion d-block d-sm-none">
-                    <Button style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > VER EVENTOS Y AGENDA CULTURAL </Button>
+                    <Link to="/Quilla-Tour/agenda">
+                        <Button style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > VER EVENTOS Y AGENDA CULTURAL </Button>
+                    </Link>
                 </div>
             </Col>
         </Row>
