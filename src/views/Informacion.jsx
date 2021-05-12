@@ -1,8 +1,8 @@
 import React from "react";
-import NavbarComponent from './../components/navbarComponent'
-import Noticias from './../components/noticias'
+import NavbarComponent from '../components/noticias/navbarComponent'
+import Noticias from '../components/noticias/noticias'
 
-class Prueba2 extends React.Component {
+class Informacion extends React.Component {
     state = {
         noticias: []
     }
@@ -49,4 +49,4 @@ class Prueba2 extends React.Component {
     }
 }
 
-export default Prueba2;
+export default Informacion;
