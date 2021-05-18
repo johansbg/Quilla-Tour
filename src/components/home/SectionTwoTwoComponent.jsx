@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import {
   Button
 } from "reactstrap";
+import { Link } from "react-router-dom";
 
 function SectionTwoTwoComponent(props) {
   
@@ -28,10 +29,14 @@ function SectionTwoTwoComponent(props) {
                 <br/>
             </div>
             <div className="ButtonSec2Two mobileReduccionTwo d-none d-sm-block" >
+              <Link to="/Quilla-Tour/InformacionDeLaCiudad">
                 <Button size="lg" style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > EXPLORAR MAS INFORMACIÓN DE LA CIUDAD</Button>
+              </Link>
             </div>
             <div className="ButtonSec2Two mobileReduccionTwo d-block d-sm-none" >
+              <Link to="/Quilla-Tour/InformacionDeLaCiudad">
                 <Button style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > EXPLORAR MAS INFORMACIÓN DE LA CIUDAD</Button>
+              </Link>
             </div>
         </Col>
         <Col xs={{ size: 12, order: 1}} md={{ size: 6, order: 2}}>
