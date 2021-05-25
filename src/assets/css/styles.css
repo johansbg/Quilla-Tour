@@ -436,6 +436,43 @@
     text-align: center;
   }
 }
+
+/*Section Three */
+.sizeFont{
+  font-size: 0.83em;
+}
+@media (max-width: 1000px) {
+  .mobileReduccionThree{
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Jumbotron{
+    margin-top: 100px;
+  }
+  .sizeFontTitle{
+    font-size: 1.1em !important;
+  }
+  .sizeFont{
+    font-size: 0.7em !important;
+  }
+}
+
+/*Comunidad*/
+.BgGradientComunidad{
+  background-color: #fff1d0;
+  background-image: url(./../img/BgComunity.png);
+  filter: grayscale(30%);
+  background-size: cover;
+}
+
+.centerTextForum{
+  text-align: center;
+}
+
+.centerPagination{
+  margin: 0 auto;
+}
 /*Leaft*/
 
 .main {
