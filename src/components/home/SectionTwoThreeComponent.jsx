@@ -1,18 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-import { Container, Row, Col } from "reactstrap";
-import { Button } from "reactstrap";
-import moment from "moment";
+import { Container, Row, Col } from 'reactstrap';
+import {
+  Button
+} from "reactstrap";
+import moment from 'moment';
 
 function SectionOneComponent(props) {
-  const [day] = React.useState(moment().format("HH:mm:ss"));
-  const [month] = React.useState(moment().format("MM"));
-  const [year] = React.useState(moment().format("YYYY"));
+  
+    const [day] = React.useState(moment().format('DD'));
+    const [month] = React.useState(moment().format('MM'));
+    const [year] = React.useState(moment().format('YYYY'));
 
-  return (
-    <>
-      <Container>
+    return (
+        <>
+        <Container>
         <Row>
           <Col>
             <div className="CardBgSectionTwo mobileReduccionThree">

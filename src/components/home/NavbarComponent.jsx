@@ -45,9 +45,7 @@ function NavbarComponent() {
               </NavLink>
             </NavItem>
             <NavItem className="mt-2 mr-5">
-              <NavLink className="NavItem" to="/">
-                Comunidad
-              </NavLink>
+              <NavLink className="NavItem" to="/Quilla-Tour/Comunidad">Comunidad</NavLink>
             </NavItem>
             <Dropdown
               className="mr-5"
