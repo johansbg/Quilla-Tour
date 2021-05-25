@@ -170,10 +170,10 @@ function SectionThreeComponent() {
                             </FormGroup>
                             </Col>
                             <Col xs="12" className=" d-none d-sm-block">
-                                <Button type="submit" size="lg" style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }}>Submit</Button>
+                                <Button type="submit" size="lg" style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }}>Enviar</Button>
                             </Col>
                             <Col xs="12" className=" d-none d-block d-sm-none">
-                                <Button type="submit" size="xs" style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }}>Submit</Button>
+                                <Button type="submit" size="xs" style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }}>Enviar</Button>
                             </Col>
                             </Row>
                         </Form>
