@@ -10,21 +10,20 @@ function Comunidad() {
   return (
     <div>
         <NavbarComponent />
-            <ReactFullpage
-            scrollOverflow={true}
-            autoScrolling={true}
-            scrollHorizontally={false}
-            render={() => {
-            return (
-                <div id="fullpage-wrapper">
-                    <div className="section BgGradientComunidad">
-                        <Forum />
-                    </div>
+        <ReactFullpage
+        scrollOverflow={true}
+        autoScrolling={true}
+        scrollHorizontally={false}
+        render={() => {
+        return (
+            <div id="fullpage-wrapper">
+                <div className="section BgGradientComunidad">
+                    <Forum />
                 </div>
-            );
-            }}
-            />
-        <Forum />
+            </div>
+        );
+        }}
+        />
     </div>
   );
 }

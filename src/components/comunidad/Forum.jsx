@@ -1,6 +1,6 @@
 import React from "react";
-import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText, Input, InputGroup } from 'reactstrap';
-import { Container, Row, Col } from 'reactstrap';
+import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText, Input } from 'reactstrap';
+import { Container } from 'reactstrap';
 import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 
 function Forum() {

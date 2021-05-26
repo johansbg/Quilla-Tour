@@ -441,6 +441,7 @@
 .sizeFont{
   font-size: 0.83em;
 }
+
 @media (max-width: 1000px) {
   .mobileReduccionThree{
     width: 73%;
@@ -461,7 +462,7 @@
 /*Comunidad*/
 .BgGradientComunidad{
   background-color: #fff1d0;
-  background-image: url(./../img/BgComunity.png);
+  background-image: url(./../img/puerto-velero/puerto-velero-buque.jpg);
   filter: grayscale(30%);
   background-size: cover;
 }
@@ -473,6 +474,64 @@
 .centerPagination{
   margin: 0 auto;
 }
+
+/*Perfil*/
+.BgGradientPerfil{
+  background-color: #fff1d0;
+  background-image: url(./../img/bocas-de-ceniza/bocas-de-ceniza-muelle.jpg);
+  filter: grayscale(30%);
+  background-size: cover;
+}
+
+.ProfileImage{
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.ProfileImage > img{
+  width: 100%;
+  border-radius: 100%;
+}
+
+.imgMedia{
+  text-align: center;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.imgMedia > img{
+  width: 100%;
+  border-radius: 10%;
+}
+
+.centerItems{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.myClass ul > li > a {
+  background-color: gray;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .mobileReduccionProfile{
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .JumbotronProfile{
+    margin-top: 100px;
+  }
+  .sizeFontTitle{
+    font-size: 1.1em !important;
+  }
+  .sizeFont{
+    font-size: 0.7em !important;
+  }
+}
+
 /*Leaft*/
 
 .main {
