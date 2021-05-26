@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/Quilla-Tour/static/css/main.896439e1.chunk.css",
-    "main.js": "/Quilla-Tour/static/js/main.275abf58.chunk.js",
-    "main.js.map": "/Quilla-Tour/static/js/main.275abf58.chunk.js.map",
-    "runtime-main.js": "/Quilla-Tour/static/js/runtime-main.e612d16f.js",
-    "runtime-main.js.map": "/Quilla-Tour/static/js/runtime-main.e612d16f.js.map",
+    "main.css": "/Quilla-Tour/static/css/main.c8f1fe03.chunk.css",
+    "main.js": "/Quilla-Tour/static/js/main.6265a79f.chunk.js",
+    "main.js.map": "/Quilla-Tour/static/js/main.6265a79f.chunk.js.map",
+    "runtime-main.js": "/Quilla-Tour/static/js/runtime-main.404f4ed2.js",
+    "runtime-main.js.map": "/Quilla-Tour/static/js/runtime-main.404f4ed2.js.map",
     "static/css/2.150d169a.chunk.css": "/Quilla-Tour/static/css/2.150d169a.chunk.css",
-    "static/js/2.ac82bc5b.chunk.js": "/Quilla-Tour/static/js/2.ac82bc5b.chunk.js",
-    "static/js/2.ac82bc5b.chunk.js.map": "/Quilla-Tour/static/js/2.ac82bc5b.chunk.js.map",
-    "static/js/3.d32e0da0.chunk.js": "/Quilla-Tour/static/js/3.d32e0da0.chunk.js",
-    "static/js/3.d32e0da0.chunk.js.map": "/Quilla-Tour/static/js/3.d32e0da0.chunk.js.map",
+    "static/js/2.f8d15204.chunk.js": "/Quilla-Tour/static/js/2.f8d15204.chunk.js",
+    "static/js/2.f8d15204.chunk.js.map": "/Quilla-Tour/static/js/2.f8d15204.chunk.js.map",
+    "static/js/3.c7aad5c6.chunk.js": "/Quilla-Tour/static/js/3.c7aad5c6.chunk.js",
+    "static/js/3.c7aad5c6.chunk.js.map": "/Quilla-Tour/static/js/3.c7aad5c6.chunk.js.map",
     "index.html": "/Quilla-Tour/index.html",
     "static/css/2.150d169a.chunk.css.map": "/Quilla-Tour/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.896439e1.chunk.css.map": "/Quilla-Tour/static/css/main.896439e1.chunk.css.map",
-    "static/js/2.ac82bc5b.chunk.js.LICENSE.txt": "/Quilla-Tour/static/js/2.ac82bc5b.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/Quilla-Tour/static/media/img5Home.a1c6d712.jpg",
+    "static/css/main.c8f1fe03.chunk.css.map": "/Quilla-Tour/static/css/main.c8f1fe03.chunk.css.map",
+    "static/js/2.f8d15204.chunk.js.LICENSE.txt": "/Quilla-Tour/static/js/2.f8d15204.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/Quilla-Tour/static/media/puerto-velero-buque.a8b1a4ec.jpg",
+    "static/media/backgroundHomeS2-1.a8f157cb.jpg": "/Quilla-Tour/static/media/backgroundHomeS2-1.a8f157cb.jpg",
     "static/media/backgroundHomeS2-2.f8db20f6.jpg": "/Quilla-Tour/static/media/backgroundHomeS2-2.f8db20f6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e612d16f.js",
+    "static/js/runtime-main.404f4ed2.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.ac82bc5b.chunk.js",
-    "static/css/main.896439e1.chunk.css",
-    "static/js/main.275abf58.chunk.js"
+    "static/js/2.f8d15204.chunk.js",
+    "static/css/main.c8f1fe03.chunk.css",
+    "static/js/main.6265a79f.chunk.js"
   ]
 }
