@@ -16,7 +16,7 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from "./../../assets/img/Logo.png";
 
-function NavbarComponent() {
+function NavbarComponent(props) {
   const [isOpen, setIsOpen] = React.useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -27,7 +27,7 @@ function NavbarComponent() {
 
   return (
     <div>
-      <Navbar className="fixed-top colorNavbar" light expand="lg">
+      <Navbar className="fixed-top colorNavbar" color={props.color} light expand="lg">
         <NavbarBrand className="ml-2" href="/">
           <img src={logo} alt="Quilla-Tour" height="50" />
         </NavbarBrand>

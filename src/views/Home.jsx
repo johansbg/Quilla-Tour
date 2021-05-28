@@ -20,7 +20,7 @@ function Home() {
 
   return (
     <div>
-      <NavbarComponent />
+      <NavbarComponent color={""} />
       <ReactFullpage
         scrollOverflow={true}
         onLeave={onLeave.bind(this)}

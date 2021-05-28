@@ -10,7 +10,7 @@ function Perfil() {
 
     return (
         <div>
-            <NavbarComponent />
+            <NavbarComponent color={""} />
             <ReactFullpage
             scrollOverflow={true}
             autoScrolling={true}

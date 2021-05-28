@@ -1,24 +1,36 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
   MapContainer,
   TileLayer,
   Marker,
   Popup,
   useMapEvents,
+  useMap,
 } from "react-leaflet";
 import * as L from "leaflet";
-import { Container, Row, Col } from "reactstrap";
+import NavbarComponent from "../components/home/NavbarComponent";
 
 //Components
 
 function Explora() {
+
+  const [amplio, setAmplio] = useState(13);
+  
+  function ChangeView({ center, zoom }) {
+    const map = useMap();
+    map.setView(center, zoom);
+    return null;
+  }
+
   function LocationMarker() {
     const [position, setPosition] = useState(null);
+    
 
     const map = useMapEvents({
       click() {
         map.locate();
+        setAmplio(17);
       },
       locationfound(e) {
         setPosition(e.latlng);
@@ -203,7 +215,6 @@ function Explora() {
       longitud: -74.80701226597715,
       live: "https://goo.gl/maps/d6uY38panNB3VAac7",
     },
-    ,
     {
       nombre: "Estadio Metropolitano Roberto Meléndez",
       direccion: "Carrera 46 # 1 Sur-445",
@@ -269,27 +280,24 @@ function Explora() {
     options: {},
   });
 
-  const blueIcon = new LeafIcon({
-      iconUrl:
-        "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|abcdef&chf=a,s,ee00FFFF",
-    }),
-    greenIcon = new LeafIcon({
+  
+  const greenIcon = new LeafIcon({
       iconUrl:
         "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|2ecc71&chf=a,s,ee00FFFF",
     });
 
-  const [icon, setIcon] = React.useState(greenIcon);
+  const [icon] = useState(greenIcon);
   return (
     <div>
-      <Container fluid={true}>
-        <Row className="align-items-center">
-          <Col xs={{ size: 12, offset: 0 }}>
+      <NavbarComponent color={"dark"} />
+        <div className="align-items-center">
             <MapContainer
               className="main"
               center={position1}
-              zoom={13}
+              zoom={amplio}
               scrollWheelZoom={true}
             >
+              <ChangeView center={position1} zoom={amplio} />
               <TileLayer
                 attribution='&copy; <a href="http://osm.org/copyright">Quilla-Tour</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -315,9 +323,7 @@ function Explora() {
                 </Marker>
               ))}
             </MapContainer>
-          </Col>
-        </Row>
-      </Container>
+        </div>
     </div>
   );
 }
