@@ -264,7 +264,11 @@ function Explora() {
 
   const position1 = [10.98982992742527, -74.80986988979193];
 
+<<<<<<< HEAD
   // Create the Icon
+=======
+  //  Create the Icon
+>>>>>>> main
   const LeafIcon = L.Icon.extend({
     options: {},
   });
