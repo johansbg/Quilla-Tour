@@ -283,8 +283,8 @@ function Explora() {
   
   const greenIcon = new LeafIcon({
       iconUrl:
-        "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|2ecc71&chf=a,s,ee00FFFF",
-    });
+      "http://maps.google.com/mapfiles/kml/shapes/dining.png",
+  });
 
   const [icon] = useState(greenIcon);
   return (
