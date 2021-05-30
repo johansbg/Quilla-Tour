@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from 'reactstrap';
 import {
   Button
@@ -36,10 +36,14 @@ function SectionTwoOneComponent(props) {
                 <br/>
             </div>
             <div className="ButtonSec2 mobileReduccion d-none d-sm-block">
+              <Link to="/Quilla-Tour/lugar">
                 <Button size="lg" style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > DESCRUBIR LOS SITIOS TURISTICOS Y CULTURALES </Button>
+              </Link>
             </div>
             <div className="ButtonSec2 mobileReduccion d-block d-sm-none">
+              <Link to="/Quilla-Tour/lugar">
                 <Button style={{ backgroundColor: "#ffb703", borderColor:"#ffb703" }} > DESCRUBIR LOS SITIOS TURISTICOS Y CULTURALES </Button>
+              </Link>
             </div>
         </Col>
       </Row>

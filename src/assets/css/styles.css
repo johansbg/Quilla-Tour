@@ -550,7 +550,13 @@
   text-align: center;
 }
 /*Perfil*/
-
+/*Lugar*/
+.mapaTop{
+  margin-top: 97px;
+}
+.sizeBar{
+  width: 30000px;
+}
 /* Carlos */
 
 /*Perfil*/
