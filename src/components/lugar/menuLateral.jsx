@@ -1,12 +1,12 @@
 import React from "react";
 
-const carrusel = ()  => {
+const menuLateral = ()  => {
     return(
         <div>
-
+            
         </div>
     );
 }
 
 
-export default carrusel;
+export default menuLateral;
