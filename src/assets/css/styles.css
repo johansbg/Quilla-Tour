@@ -538,7 +538,17 @@
   height: 100vh;
   width: 100%;
 }
-
+/*Agenda*/
+.bgGreenCita{
+  background-color: #AAD87F;
+}
+.imagenCita{
+  width: 70px;
+  height: 70px;
+}
+.tituloCita{
+  text-align: center;
+}
 /*Perfil*/
 
 /* Carlos */
