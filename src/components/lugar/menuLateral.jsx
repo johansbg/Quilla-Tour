@@ -2,7 +2,7 @@ import React from "react";
 //Librerias
 import { Container, Row, Col } from 'reactstrap';
 //Componentes
-import CartaSite from "./CartaSite"
+import CartaSite from "./cartaSite"
 
 const sites = [
     {

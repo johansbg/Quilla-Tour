@@ -4,7 +4,7 @@ import { useState } from "react";
 import {MapContainer, TileLayer,  Marker, Popup, useMapEvents, useMap} from "react-leaflet";
 import * as L from "leaflet";
 //Components
-import CartaSite from "./CartaSite";
+import CartaSite from "./cartaSite";
 
 function Mapa(props) {
 
