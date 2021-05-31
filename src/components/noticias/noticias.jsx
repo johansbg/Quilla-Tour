@@ -1,5 +1,5 @@
 import React from "react";
-import Noticia from './noticia'
+import Noticia from './Noticia'
 
 class Noticias extends React.Component {
     render(){
