@@ -24,9 +24,11 @@ function BarraBusqueda(props) {
         <Navbar className="fixed-top colorNavbar" color={props.color} light expand="lg">
             <NavbarBrand className="ml-2">
                 <InputGroup >
-                    <Input className="sizeBar" placeholder="BuscarLugares" onChange={handleInputChange}/>
+                    <Input className="sizeBar" placeholder="Buscar Lugares" onChange={handleInputChange}/>
                     <InputGroupAddon addonType="append">
-                        <InputGroupText>@</InputGroupText>
+                        <InputGroupText>
+                            <FontAwesomeIcon  icon="search"/>
+                        </InputGroupText>
                     </InputGroupAddon>
                 </InputGroup>
             </NavbarBrand>

@@ -554,8 +554,18 @@
 .mapaTop{
   margin-top: 97px;
 }
-.sizeBar{
-  width: 30000px;
+.main1{
+  height: 720px;
+  width: 100%;
+}
+.colorStar{
+  color: #ffb703;
+}
+.scrolling{
+  width: 100%;
+  height: 800px;
+  overflow-y: scroll;
+  scrollbar-color: #343a40 #ffffff;
 }
 /* Carlos */
 

@@ -7,6 +7,7 @@ import Explora from "./Explora";
 import Perfil from "./Perfil";
 import Agenda from "./Agenda";
 import Lugar from "./Lugar";
+import DescripLugar from "./DescripLugar";
 import { Switch, Route, Redirect, withRouter } from "react-router-dom";
 import "../fontawesome";
 
@@ -20,6 +21,7 @@ function Main() {
       <Route exact path="/Quilla-Tour/Perfil" component={Perfil} />
       <Route exact path="/Quilla-Tour/Agenda" component={Agenda} />
       <Route exact path="/Quilla-Tour/Lugar" component={Lugar} />
+      <Route exact path="/Quilla-Tour/DescripcionLugar" component={DescripLugar} />
       <Redirect to="/Quilla-Tour" />
     </Switch>
   );

@@ -205,7 +205,7 @@ function Mapa(props) {
     
     const greenIcon = new LeafIcon({
         iconUrl:
-        "http://maps.google.com/mapfiles/kml/shapes/dining.png",
+        "http://maps.google.com/mapfiles/kml/paddle/blu-blank-lv.png",
     });
 
     const [icon] = useState(greenIcon);
@@ -214,7 +214,7 @@ function Mapa(props) {
     <div className="mapaTop">
         <div className="align-items-center">
             <MapContainer
-              className="main"
+              className="main1" 
               center={position1}
               zoom={amplio}
               scrollWheelZoom={true}
@@ -229,9 +229,9 @@ function Mapa(props) {
                 <Marker 
                  ey={i}  
                  icon={icon} 
-                 position={[dataPosition.lt, dataPosition.long]} 
+                 position={[dataPosition.lt, dataPosition.long]}
                 >
-                    <Popup>
+                    <Popup className="m-0 p-0">
                         <CartaSite data={dataPosition} urlImg={require('../../assets/'+dataPosition.img)}/>
                     </Popup>
                 </Marker>
