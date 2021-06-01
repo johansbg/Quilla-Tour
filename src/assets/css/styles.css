@@ -538,9 +538,35 @@
   height: 100vh;
   width: 100%;
 }
-
+/*Agenda*/
+.bgGreenCita{
+  background-color: #AAD87F;
+}
+.imagenCita{
+  width: 70px;
+  height: 70px;
+}
+.tituloCita{
+  text-align: center;
+}
 /*Perfil*/
-
+/*Lugar*/
+.mapaTop{
+  margin-top: 97px;
+}
+.main1{
+  height: 720px;
+  width: 100%;
+}
+.colorStar{
+  color: #ffb703;
+}
+.scrolling{
+  width: 100%;
+  height: 800px;
+  overflow-y: scroll;
+  scrollbar-color: #343a40 #ffffff;
+}
 /* Carlos */
 
 /*Perfil*/
