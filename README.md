@@ -1,4 +1,4 @@
-![logo de la app](src\assets\img\Logo.png)
+![logo de la app](./src\assets\img\Logo.png)
 
 La aplicacion es una solucion requerida al problema de construir un sitio web de recomendaciones y  de información turística de Barranquilla.  (Restaurantes, hoteles, bares, centros comerciales, empresas de turismo, entre otros)
 
