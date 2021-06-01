@@ -6,6 +6,7 @@ import * as L from "leaflet";
 //Components
 import CartaSite from "./CartaSite";
 import {sites as position} from "../../shared/sites" ;
+
 function Mapa(props) {
 
     const [amplio, setAmplio] = useState(13);

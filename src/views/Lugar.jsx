@@ -3,7 +3,7 @@ import React from "react";
 import { Container, Row, Col } from 'reactstrap';
 //Componentes
 import BarraBusqueda from "../components/lugar/BarraBusqueda";
-import MenuLateral from "../components/lugar/MenuLateral";
+import MenuLateral from "../components/lugar/menuLateral";
 import Mapa from "../components/lugar/Mapa";
 
 function Lugar() {
