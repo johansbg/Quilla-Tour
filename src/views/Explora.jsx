@@ -45,7 +45,7 @@ function Explora() {
       map.addControl(searchControl);
 
       return () => map.removeControl(searchControl);
-    }, []);
+    }, [map]);
 
     return null;
   }

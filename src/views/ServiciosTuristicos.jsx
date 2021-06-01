@@ -24,7 +24,7 @@ const ServiciosTuristicos = (props)  => {
                             Servicios Turisticos en Barranquilla
                         </h4>
                         <br/>
-                        <img top width="100%" className="mb-5" src={logo} alt="Card image cap" />
+                        <img top width="100%" className="mb-5" src={logo} alt="Card cap" />
                         <p className="text-muted text-justify">
                             A solo 35 minutos de Barranquilla o 90 minutos desde Cartagena, Marina Puerto Velero es un lugar que abre sus puertas a viajeros en búsqueda de una experiencia para reconectarse con la vida a través de la energía que emana entre la tierra y el mar. La diversidad de la naturaleza y el legado cultural que se encuentra en cada rincón del Club Náutico y Resort, convierte un viaje en una experiencia única.
                             Ofrecemos venta y alquiler de amarres entre otras comodidades para navegantes como el mantenimiento de embarcaciones. Contamos con tres espectaculares tipos de alojamiento y nuestros restaurantes ofrecen lo mejor de la gastronomía caribeña.
