@@ -19,7 +19,7 @@ const DescripLugar = (props)  => {
                         <h2 tag="h3" className="mt-5">{props.location.dataDetalle.props.data.title}</h2>
                         <hr/>
                         <h4 tag="h5" className="mb-4 text-muted">{props.location.dataDetalle.props.data.Subtitle}</h4><br/>
-                        <img top width="100%" className="mb-5" src={props.location.dataDetalle.props.urlImg.default} alt="Card image cap" />
+                        <img top width="100%" className="mb-5" src={props.location.dataDetalle.props.urlImg.default} alt="Card cap" />
                         <p className="text-muted text-justify">
                             {props.location.dataDetalle.props.data.descripcion}
                         </p>
