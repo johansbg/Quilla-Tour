@@ -23,7 +23,7 @@ function Lugar() {
                     <Col md = {6} className="mt-4 p-0">
                         <MenuLateral textoBusqueda={textoBusqueda}/>
                     </Col>
-                    <Col md = {6}className="mt-4 pr-3 p-0">
+                    <Col md = {6} className="mt-4 pr-3 p-0">
                         <Mapa textoBusqueda={textoBusqueda}/>
                     </Col>
                 </Row>

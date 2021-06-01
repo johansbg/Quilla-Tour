@@ -48,7 +48,7 @@ function BarraBusqueda(props) {
                 </NavLink>
                 </NavItem>
                 <NavItem className="mt-2 mr-5">
-                <NavLink className="NavItem" to="/Quilla-Tour/Comunidad">Comunidad</NavLink>
+                <NavLink className="NavItem" to="/Quilla-Tour/ServiciosTuristicos">Servicios Turisticos</NavLink>
                 </NavItem>
                 <Dropdown
                 className="mr-5"
