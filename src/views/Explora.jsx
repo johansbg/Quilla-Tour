@@ -10,7 +10,11 @@ import {
 } from "react-leaflet";
 import * as L from "leaflet";
 import NavbarComponent from "../components/home/NavbarComponent";
+<<<<<<< HEAD
+import "../assets/css/searchbar.css";
+=======
 import "leaflet-geosearch/dist/geosearch.css";
+>>>>>>> 60faebbf3b4e4ea366bd028b054c681d79070da7
 import { GeoSearchControl, OpenStreetMapProvider } from "leaflet-geosearch";
 
 //Components
@@ -28,7 +32,11 @@ function Explora() {
             countrycodes: "co",
             addressdetails: 1,
             viewBox: [10.412183, -74.906719, 10.466206, -74.901226],
+<<<<<<< HEAD
+            bounded: 0,
+=======
             bounded: 1, //TODO
+>>>>>>> 60faebbf3b4e4ea366bd028b054c681d79070da7
             limit: 5,
           },
         }),
@@ -45,7 +53,11 @@ function Explora() {
       map.addControl(searchControl);
 
       return () => map.removeControl(searchControl);
+<<<<<<< HEAD
+    });
+=======
     }, [map]);
+>>>>>>> 60faebbf3b4e4ea366bd028b054c681d79070da7
 
     return null;
   }
@@ -79,6 +91,7 @@ function Explora() {
       latitud: 11.010947478255625,
       longitud: -74.79790183189363,
       live: "https://goo.gl/maps/GEUcwkuVJsFtSnwD6",
+      category: "recreativo",
     },
     {
       nombre: "Parroquia Inmaculada Concepción",
@@ -86,6 +99,7 @@ function Explora() {
       latitud: 10.998840253903447,
       longitud: -74.79810435424716,
       live: "https://goo.gl/maps/EFsNBx4pbXVm9NyWA",
+      category: "iglesia",
     },
     {
       nombre: "Museo Mapuka",
@@ -93,6 +107,7 @@ function Explora() {
       latitud: 11.020223941287098,
       longitud: -74.85118295548727,
       live: "https://goo.gl/maps/S4cciJfmBYTVgMP96",
+      category: "cultural",
     },
     {
       nombre: "Viva Centro Comercial",
@@ -100,6 +115,7 @@ function Explora() {
       latitud: 11.008288375744955,
       longitud: -74.82182617389006,
       live: "https://goo.gl/maps/jUz2DNS58WMUEqx37",
+      category: "centro-comercial",
     },
     {
       nombre: "Castillo de Salgar",
@@ -107,6 +123,7 @@ function Explora() {
       latitud: 11.018237783240014,
       longitud: -74.94162060652182,
       live: "https://goo.gl/maps/nXXdHiFhNtEbtdR78",
+      category: "cultural",
     },
     {
       nombre: "Museo del Caribe",
@@ -114,6 +131,7 @@ function Explora() {
       latitud: 10.986270502668857,
       longitud: -74.77856479861191,
       live: "https://goo.gl/maps/gtDREBeKHD9smx8f7",
+      category: "cultural",
     },
     {
       nombre: "Catedral Metropolitana de Barranquilla",
@@ -121,6 +139,7 @@ function Explora() {
       latitud: 10.988221919524074,
       longitud: -74.79049471057381,
       live: "https://goo.gl/maps/2Mm8fB7EDjnZL45x5",
+      category: "iglesia",
     },
     {
       nombre: "Centro de Convenciones Puerta de Oro",
@@ -128,6 +147,7 @@ function Explora() {
       latitud: 11.021585959811365,
       longitud: -74.79971341879926,
       live: "https://goo.gl/maps/er1voUUuVVz4xF686",
+      category: "recreativo",
     },
     {
       nombre: "Centro Comercial Buenavista",
@@ -135,6 +155,7 @@ function Explora() {
       latitud: 11.013139668933952,
       longitud: -74.82767099456795,
       live: "https://goo.gl/maps/TgihKjU1vp5P3nMW9",
+      category: "centro-comercial",
     },
     {
       nombre: "Malecón Turístico Rio Magdalena ",
@@ -142,6 +163,7 @@ function Explora() {
       latitud: 10.99707652374411,
       longitud: -74.77048328218513,
       live: "https://goo.gl/maps/faxS4HRKiEBF34bq5",
+      category: "recreativo",
     },
     {
       nombre: "Museo del Carnaval",
@@ -149,6 +171,7 @@ function Explora() {
       latitud: 10.993046793422442,
       longitud: -74.78761138894464,
       live: "https://goo.gl/maps/AcyYPZBk9FfMKDU56",
+      category: "cultural",
     },
     {
       nombre: "Casa del Carnaval",
@@ -156,6 +179,7 @@ function Explora() {
       latitud: 10.992988960697799,
       longitud: -74.78782110927281,
       live: "https://goo.gl/maps/aqTJPUJqjwJQWNWN8",
+      category: "cultural",
     },
     {
       nombre: "Monumento Ventana al Mundo",
@@ -163,6 +187,7 @@ function Explora() {
       latitud: 11.03311864101431,
       longitud: -74.83140692119329,
       live: "https://goo.gl/maps/VCtLc5X9uTJmGkdR7",
+      category: "recreativo",
     },
     {
       nombre: "Monumento Aleta del Tiburón",
@@ -170,6 +195,7 @@ function Explora() {
       latitud: 10.998226552807623,
       longitud: -74.77271119210127,
       live: "https://goo.gl/maps/Y5UGUXTasQMKEuvX8",
+      category: "recreativo",
     },
     {
       nombre: "Bocas de Ceniza",
@@ -177,6 +203,7 @@ function Explora() {
       latitud: 11.106334386939494,
       longitud: -74.85471714179081,
       live: "https://goo.gl/maps/qoa3LMRZGhaaGeRh9",
+      category: "recreativo",
     },
     {
       nombre: "Centro Comercial Villa Country",
@@ -184,6 +211,7 @@ function Explora() {
       latitud: 11.00439507069124,
       longitud: -74.80668768078363,
       live: "https://goo.gl/maps/VUeUYPU3LZVk5xY3A",
+      category: "centro-comercial",
     },
     {
       nombre: "Plaza de la Intendencia Fluvial",
@@ -191,6 +219,7 @@ function Explora() {
       latitud: 10.98566552233177,
       longitud: -74.7758701460156,
       live: "https://goo.gl/maps/e824dGSxvr9n4hWeA",
+      category: "cultural",
     },
     {
       nombre: "Plaza de la Paz",
@@ -198,6 +227,7 @@ function Explora() {
       latitud: 10.987962164372274,
       longitud: -74.78883086749592,
       live: "https://goo.gl/maps/9ZGUVNYctGkqXxR9A",
+      category: "recreativo",
     },
     {
       nombre: "Centro Comercial Portal del Prado",
@@ -205,6 +235,7 @@ function Explora() {
       latitud: 10.989667300547147,
       longitud: -74.78859347375383,
       live: "https://goo.gl/maps/g6F7xupaagnE9aE36",
+      category: "centro-comercial",
     },
     {
       nombre: "Centro Comercial Único Outlet",
@@ -212,6 +243,7 @@ function Explora() {
       latitud: 10.988829272949914,
       longitud: -74.8123921043121,
       live: "https://goo.gl/maps/91VWb8wX3DJS3HKC8",
+      category: "centro-comercial",
     },
     {
       nombre: "Hotel El Prado",
@@ -219,6 +251,79 @@ function Explora() {
       latitud: 10.998769090921023,
       longitud: -74.80015276537327,
       live: "https://goo.gl/maps/28Mhf2xtohTvUXfk8",
+      category: "hotel",
+    },
+    {
+      nombre: "Holiday Inn Express Barranquilla Buenavista",
+      direccion: "Carrera 53 # 106 - 280 Manzana 22",
+      latitud: 11.019346933975553,
+      longitud: -74.8362345738503,
+      live: "https://goo.gl/maps/DJG9jc8vcLE7ygVj6",
+      category: "hotel",
+    },
+    {
+      nombre: "GHL Collection Hotel",
+      direccion: "Cl. 107 # 50-69",
+      latitud: 11.014012502602283,
+      longitud: -74.83682497997474,
+      live: "https://goo.gl/maps/W7KYajHEKiiJyhd66",
+      category: "hotel",
+    },
+    {
+      nombre: "GHL Hotel Barranquilla",
+      direccion: "Cl. 106 # 50 - 11,",
+      latitud: 11.013443639687472,
+      longitud: -74.83682324465046,
+      live: "https://goo.gl/maps/u5geJB2uAhd2jJkZ8",
+      category: "hotel",
+    },
+    {
+      nombre: "Ribai Hotels",
+      direccion: "Carrera 41 # 40 - 02,",
+      latitud: 10.980708034611348,
+      longitud: -74.7823222149551,
+      live: "https://goo.gl/maps/3xS62wG9smRa1EGW6",
+      category: "hotel",
+    },
+    {
+      nombre: "Hotel Ibis Barranquilla",
+      direccion: "Cl. 86  # 50 - 66",
+      latitud: 11.00597169217367,
+      longitud: -74.82059737385042,
+      live: "https://goo.gl/maps/Zav4v53uUA5ZNpsG8",
+      category: "hotel",
+    },
+    {
+      nombre: "Ibis Budget",
+      direccion: "Cra. 50 # 84 - 82",
+      latitud: 11.004506055287209,
+      longitud: -74.81855737446281,
+      live: "https://goo.gl/maps/cTM33HKt2E4Zw8po8",
+      category: "hotel",
+    },
+    {
+      nombre: "Hampton by Hilton",
+      direccion: "Cl. 85 # 50 - 25",
+      latitud: 11.005455242873424,
+      longitud: -74.81976857084895,
+      live: "https://goo.gl/maps/RaMLmbJpFsjZyzih6",
+      category: "hotel",
+    },
+    {
+      nombre: "Wyndham Garden",
+      direccion: "Cl. 87 # 47 - 88",
+      latitud: 11.003839517098706,
+      longitud: -74.82223750244046,
+      live: "https://goo.gl/maps/9EAfVTmAzvPUoXFh9",
+      category: "hotel",
+    },
+    {
+      nombre: "Hotel Dann Carlton",
+      direccion: "Cl. 98 # 52B - 10",
+      latitud: 11.01293133396361,
+      longitud: -74.82698066219514,
+      live: "https://goo.gl/maps/kCM5bw11x17s63G18",
+      category: "hotel",
     },
     {
       nombre: "Edificio de la Aduana",
@@ -226,6 +331,7 @@ function Explora() {
       latitud: 10.988374713104957,
       longitud: -74.77899332956622,
       live: "https://goo.gl/maps/EFceQJYzUjwUurV96",
+      category: "cultural",
     },
     {
       nombre: "Paseo Bolívar",
@@ -233,6 +339,7 @@ function Explora() {
       latitud: 10.982941967347772,
       longitud: -74.77763774816904,
       live: "https://goo.gl/maps/7btxM6SnfnDSLAZH7",
+      category: "cultural",
     },
     {
       nombre: "Galería Artesanal y Comercial 72",
@@ -240,6 +347,7 @@ function Explora() {
       latitud: 10.995258861935909,
       longitud: -74.80701226597715,
       live: "https://goo.gl/maps/d6uY38panNB3VAac7",
+      category: "cultural",
     },
     {
       nombre: "Estadio Metropolitano Roberto Meléndez",
@@ -247,6 +355,7 @@ function Explora() {
       latitud: 10.926977515401195,
       longitud: -74.80054385682416,
       live: "https://goo.gl/maps/5URpjVMGMQAHTVap7",
+      category: "recreativo",
     },
     {
       nombre: "Parroquia de San Nicolás de Tolentino",
@@ -254,6 +363,7 @@ function Explora() {
       latitud: 10.980135775992471,
       longitud: -74.77785730080089,
       live: "https://goo.gl/maps/m4BLKZk19PZET5iAA",
+      category: "iglesia",
     },
     {
       nombre: "Iglesia de San Roque",
@@ -261,6 +371,7 @@ function Explora() {
       latitud: 10.975810648999564,
       longitud: -74.77783663643972,
       live: "https://goo.gl/maps/PsBhAyuodTE1zESSA",
+      category: "iglesia",
     },
     {
       nombre: "Parque Paseo de la Castellana",
@@ -268,6 +379,7 @@ function Explora() {
       latitud: 11.019094595040949,
       longitud: -74.82459101494689,
       live: "https://goo.gl/maps/UUBRL77NXoXPDryP6",
+      category: "recreativo",
     },
     {
       nombre: "Parroquia las Tres Aves Marías",
@@ -275,6 +387,7 @@ function Explora() {
       latitud: 11.015544519851687,
       longitud: -74.80822682783003,
       live: "https://goo.gl/maps/h14WQLgQfqDWJ3h27",
+      category: "iglesia",
     },
     {
       nombre: "Parque Sagrado Corazón",
@@ -282,6 +395,7 @@ function Explora() {
       latitud: 10.99380586696878,
       longitud: -74.81816919331396,
       live: "https://goo.gl/maps/kgA4JurnbWyurqLx5",
+      category: "recreativo",
     },
     {
       nombre: "Centro Comercial Miramar",
@@ -289,6 +403,7 @@ function Explora() {
       latitud: 11.00334929377012,
       longitud: -74.83525193507921,
       live: "https://goo.gl/maps/A44SNPQ3n8F3Wwyz8",
+      category: "centro-comercial",
     },
     {
       nombre: "Biblioteca Piloto del Caribe",
@@ -296,6 +411,7 @@ function Explora() {
       latitud: 10.988746239673723,
       longitud: -74.77865897597617,
       live: "https://goo.gl/maps/5pzwHFFm9Db6TyV1A",
+      category: "cultural",
     },
   ];
 
@@ -306,12 +422,56 @@ function Explora() {
     options: {},
   });
 
-  const greenIcon = new LeafIcon({
-    iconUrl:
-      "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|2ecc71&chf=a,s,ee00FFFF",
-  });
+  const blueIcon = new LeafIcon({
+      iconUrl:
+        "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|0275d8&chf=a,s,ee00FFFF",
+    }),
+    greenIcon = new LeafIcon({
+      iconUrl:
+        "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|5cb85c&chf=a,s,ee00FFFF",
+    }),
+    yellowIcon = new LeafIcon({
+      iconUrl:
+        "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|f0ad4e&chf=a,s,ee00FFFF",
+    }),
+    redIcon = new LeafIcon({
+      iconUrl:
+        "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|d9534f&chf=a,s,ee00FFFF",
+    }),
+    infoIcon = new LeafIcon({
+      iconUrl:
+        "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|5bc0de&chf=a,s,ee00FFFF",
+    }),
+    fadedIcon = new LeafIcon({
+      iconUrl:
+        "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|f7f7f7&chf=a,s,ee00FFFF",
+    });
 
-  const [icon] = useState(greenIcon);
+  const pin = (dataPosition) => {
+    if (dataPosition.category === "recreativo") {
+      return blueIcon;
+    } else if (dataPosition.category === "iglesia") {
+      return fadedIcon;
+    } else if (dataPosition.category === "cultural") {
+      return yellowIcon;
+    } else if (dataPosition.category === "centro-comercial") {
+      return redIcon;
+    } else if (dataPosition.category === "hotel") {
+      return infoIcon;
+    } else {
+      return greenIcon;
+    }
+  };
+
+  const [icon] = useState(
+    greenIcon,
+    blueIcon,
+    yellowIcon,
+    redIcon,
+    infoIcon,
+    fadedIcon
+  );
+
   return (
     <div>
       <NavbarComponent color={"dark"} />
@@ -331,7 +491,7 @@ function Explora() {
           {position.map((dataPosition, i) => (
             <Marker
               key={i}
-              icon={icon}
+              icon={pin(dataPosition)}
               position={[dataPosition.latitud, dataPosition.longitud]}
             >
               <Popup>
