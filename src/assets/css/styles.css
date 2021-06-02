@@ -540,11 +540,11 @@
 }
 /*Agenda*/
 .bgGreenCita{
-  background-color: #AAD87F;
+  background-color: #87a868;
 }
 .imagenCita{
-  width: 70px;
-  height: 70px;
+  width: 100%;
+  height: 100%;
 }
 .tituloCita{
   text-align: center;

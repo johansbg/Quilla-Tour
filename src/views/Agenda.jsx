@@ -13,7 +13,9 @@ import {
 import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
 import { withStyles } from "@material-ui/core/styles";
-import img from './../assets/img/backgroundHomeS1.jpg';
+import img1 from './../assets/img/eventos/carnaval.jpg';
+import img2 from './../assets/img/eventos/batalla.jpg';
+import img3 from './../assets/img/eventos/junior.jpeg';
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from 'reactstrap';
 
@@ -21,29 +23,25 @@ const appointments = [
   {
     title: "Carnaval",
     startDate: new Date(2018, 5, 25, 12, 35),
-    endDate: new Date(2018, 5, 25, 15, 0)
+    endDate: new Date(2018, 5, 25, 15, 0),
+    fondo: img1,
+    // link:
     
   },
   {
     title: "Batalla de flores",
     startDate: new Date(2018, 5, 26, 12, 35),
-    endDate: new Date(2018, 5, 26, 15, 0)
-  },
-  {
-    title: "Paro",
-    startDate: new Date(2018, 5, 27, 12, 35),
-    endDate: new Date(2018, 5, 27, 15, 0)
-  },
-  {
-    title: "asdasdsa",
-    startDate: new Date(2018, 5, 28, 12, 35),
-    endDate: new Date(2018, 5, 28, 15, 0)
+    endDate: new Date(2018, 5, 26, 15, 0),
+    fondo: img2,
+    // link:
   },
   {
     title: "Junior vs Nacional",
     startDate: new Date(2018, 5, 29, 12, 35),
-    endDate: new Date(2018, 5, 29, 15, 0)
-  },
+    endDate: new Date(2018, 5, 29, 15, 0),
+    fondo: img3,
+    // link:
+  }
 ];
 
 
@@ -58,7 +56,7 @@ const renderAppointment = (model) => {
         <div className="bgGreenCita">
           <Row>
             <Col xs="4"> 
-              <img src={img} className="imagenCita" alt="Quilla-Tour" />
+              <img src={model.data.fondo} className="imagenCita" alt="Quilla-Tour" />
             </Col>
             <Col xs="8">
               <p className="m-0 tituloCita">{model.data.title}</p>
