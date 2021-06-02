@@ -44,40 +44,29 @@ Responsable de almacenar y gestionar la información de servicios turísticos, d
 ###  Componente de noticias, avisos e información de la ciudad
 Responsable de almacenar y gestionar las noticias, los avisos, información, frecuencia de actualización, fuentes de información, comentarios y ranking, referencias a sitios relacionados, servicios de información y publicación de información, filtrado y búsquedas de información. Impresión de datos, exportación e importación de datos.
 
-#### Libreria
-La liberia que se utlizo para el componente de mapas de la aplicacion fue React Leaflet.
-- https://react-leaflet.js.org/
-
-```
-"leaflet": "^1.7.1",
-"react-leaflet": "^3.1.0",
-"leaflet-geosearch": "^3.3.2",
-```
-
 ### Componente de eventos y agenda cultural
 Responsable de almacenar y gestionar los eventos a realizarse, y actividades culturares de los mismos, las diferentes ofertas que ofrezcan los sitios, y lo que la gente ha dicho de esto. Se debe visualizar de tal manera se puedan de manera organiza en el tiempo. Contenido multi-lenguaje.
 
 #### Libreria
-La liberia que se utlizo para el componente de mapas de la aplicacion fue React Leaflet.
-- https://react-leaflet.js.org/
+La liberia que se utlizo para el componente de eventos y agenda cultural de la aplicacion fue React Scheduler.
+- https://devexpress.github.io/devextreme-reactive/react/scheduler/docs/guides/getting-started/
 
 ```
-"leaflet": "^1.7.1",
-"react-leaflet": "^3.1.0",
-"leaflet-geosearch": "^3.3.2",
+"@devexpress/dx-core": "^2.7.5",
+"@devexpress/dx-react-core": "^2.7.5",
+"@devexpress/dx-react-scheduler": "^2.7.5",
+"@devexpress/dx-react-scheduler-material-ui": "^2.7.5",
 ```
 
 ### Componente de red social, perfil, usuarios y comunidad
 Responsable de almacenar la información de los perfiles de los usuarios, y crear grupo o categorías donde cada uno de los participantes pueda interactuar, además de una comunidad donde los usuarios puedan ingresar sus experiencias y hacer sugerencias. Contenido multi-lenguaje.
 
 #### Libreria
-La liberia que se utlizo para el componente de mapas de la aplicacion fue React Leaflet.
-- https://react-leaflet.js.org/
+La liberia que se utlizo para el componente de red social, perfil, usuarios y comunidad de la aplicacion fue React Leaflet.
+- https://formik.org/
 
 ```
-"leaflet": "^1.7.1",
-"react-leaflet": "^3.1.0",
-"leaflet-geosearch": "^3.3.2",
+"formik": "^2.2.6",
 ```
 
 ## Comandos de ejecucion para el proyecto
