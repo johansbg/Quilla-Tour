@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Quilla-Tour/static/css/main.dab7e1f7.chunk.css",
-    "main.js": "/Quilla-Tour/static/js/main.5753e561.chunk.js",
-    "main.js.map": "/Quilla-Tour/static/js/main.5753e561.chunk.js.map",
+    "main.css": "/Quilla-Tour/static/css/main.877ccbbf.chunk.css",
+    "main.js": "/Quilla-Tour/static/js/main.9ee7a6f7.chunk.js",
+    "main.js.map": "/Quilla-Tour/static/js/main.9ee7a6f7.chunk.js.map",
     "runtime-main.js": "/Quilla-Tour/static/js/runtime-main.a059e970.js",
     "runtime-main.js.map": "/Quilla-Tour/static/js/runtime-main.a059e970.js.map",
-    "static/css/2.9f833415.chunk.css": "/Quilla-Tour/static/css/2.9f833415.chunk.css",
-    "static/js/2.c9fc8419.chunk.js": "/Quilla-Tour/static/js/2.c9fc8419.chunk.js",
-    "static/js/2.c9fc8419.chunk.js.map": "/Quilla-Tour/static/js/2.c9fc8419.chunk.js.map",
+    "static/css/2.150d169a.chunk.css": "/Quilla-Tour/static/css/2.150d169a.chunk.css",
+    "static/js/2.f745df33.chunk.js": "/Quilla-Tour/static/js/2.f745df33.chunk.js",
+    "static/js/2.f745df33.chunk.js.map": "/Quilla-Tour/static/js/2.f745df33.chunk.js.map",
     "static/js/3.22792862.chunk.js": "/Quilla-Tour/static/js/3.22792862.chunk.js",
     "static/js/3.22792862.chunk.js.map": "/Quilla-Tour/static/js/3.22792862.chunk.js.map",
     "index.html": "/Quilla-Tour/index.html",
-    "static/css/2.9f833415.chunk.css.map": "/Quilla-Tour/static/css/2.9f833415.chunk.css.map",
-    "static/css/main.dab7e1f7.chunk.css.map": "/Quilla-Tour/static/css/main.dab7e1f7.chunk.css.map",
-    "static/js/2.c9fc8419.chunk.js.LICENSE.txt": "/Quilla-Tour/static/js/2.c9fc8419.chunk.js.LICENSE.txt",
+    "static/css/2.150d169a.chunk.css.map": "/Quilla-Tour/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.877ccbbf.chunk.css.map": "/Quilla-Tour/static/css/main.877ccbbf.chunk.css.map",
+    "static/js/2.f745df33.chunk.js.LICENSE.txt": "/Quilla-Tour/static/js/2.f745df33.chunk.js.LICENSE.txt",
     "static/media/Antigua_Aduana_de_Barranquilla.jpg": "/Quilla-Tour/static/media/Antigua_Aduana_de_Barranquilla.3c189952.jpg",
     "static/media/Barranquilla_-_Paseo_de_Bolívar.jpg": "/Quilla-Tour/static/media/Barranquilla_-_Paseo_de_Bolívar.69a23740.jpg",
     "static/media/BgComunity.png": "/Quilla-Tour/static/media/BgComunity.a3d6579d.png",
@@ -75,9 +75,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a059e970.js",
-    "static/css/2.9f833415.chunk.css",
-    "static/js/2.c9fc8419.chunk.js",
-    "static/css/main.dab7e1f7.chunk.css",
-    "static/js/main.5753e561.chunk.js"
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.f745df33.chunk.js",
+    "static/css/main.877ccbbf.chunk.css",
+    "static/js/main.9ee7a6f7.chunk.js"
   ]
 }
