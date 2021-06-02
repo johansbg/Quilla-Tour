@@ -10,7 +10,11 @@ import {
 } from "react-leaflet";
 import * as L from "leaflet";
 import NavbarComponent from "../components/home/NavbarComponent";
+<<<<<<< HEAD
 import "../assets/css/searchbar.css";
+=======
+import "leaflet-geosearch/dist/geosearch.css";
+>>>>>>> 60faebbf3b4e4ea366bd028b054c681d79070da7
 import { GeoSearchControl, OpenStreetMapProvider } from "leaflet-geosearch";
 
 //Components
@@ -28,7 +32,11 @@ function Explora() {
             countrycodes: "co",
             addressdetails: 1,
             viewBox: [10.412183, -74.906719, 10.466206, -74.901226],
+<<<<<<< HEAD
             bounded: 0,
+=======
+            bounded: 1, //TODO
+>>>>>>> 60faebbf3b4e4ea366bd028b054c681d79070da7
             limit: 5,
           },
         }),
@@ -45,7 +53,11 @@ function Explora() {
       map.addControl(searchControl);
 
       return () => map.removeControl(searchControl);
+<<<<<<< HEAD
     });
+=======
+    }, [map]);
+>>>>>>> 60faebbf3b4e4ea366bd028b054c681d79070da7
 
     return null;
   }
