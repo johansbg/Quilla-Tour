@@ -52,19 +52,19 @@ const initialState = {
 const renderAppointment = (model) => {
   return(
     <>
-      <Container fluid>
+      <div className="card_horario">
         <div className="bgGreenCita">
           <Row>
-            <Col xs="4"> 
+            <Col xs="4" className="image_card"> 
               <img src={model.data.fondo} className="imagenCita" alt="Quilla-Tour" />
             </Col>
             <Col xs="8">
-              <p className="m-0 tituloCita">{model.data.title}</p>
-              <Link to="/" className="m-0" >Ver informacion del Evento</Link>
+               <p className="m-0 tituloCita">{model.data.title}</p>
+              <Link to="/" className="m-0" >Más información</Link>
             </Col>
           </Row>
         </div>
-      </Container>
+      </div>
     </>
   )
 }
