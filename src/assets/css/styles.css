@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono|Work+Sans:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono|Work+Sans:400,500,600,700&display=swap");
 
 * {
-  font-family: 'Work Sans', 'Roboto Mono', sans-serif;
+  font-family: "Work Sans", "Roboto Mono", sans-serif;
 }
 
 /*Navbar Home*/
 
-.NavItem{
+.NavItem {
   color: white;
   font-weight: 300;
   text-decoration: none;
   margin-right: 10px;
 }
 
-.NavItem:hover{
+.NavItem:hover {
   color: #f2f2f2;
   text-decoration: underline;
 }
-
 
 /*home*/
 
@@ -48,19 +47,19 @@
   background-size: cover;
 }
 
-/*Section1*/ 
+/*Section1*/
 
-.CardSectionOne{
+.CardSectionOne {
   text-align: center;
   margin-bottom: 60px;
 }
 
-.CardSectionOne > .title{
+.CardSectionOne > .title {
   color: #f2f2f2;
   font-size: 7em;
 }
 
-.CardBgSectionOne{
+.CardBgSectionOne {
   text-align: center;
   background-color: #f2f2f2;
   border-bottom-left-radius: 50px;
@@ -68,12 +67,12 @@
   padding: 3%;
 }
 
-.CardBgSectionOne > .message{
+.CardBgSectionOne > .message {
   color: #000;
   font-size: 1.4em;
 }
 
-.Button{
+.Button {
   margin-top: 50px;
   text-align: center;
 }
@@ -82,28 +81,28 @@
   .CardSectionOne > .title {
     font-size: 2.5em;
   }
-  .CardBgSectionOne > .message{
+  .CardBgSectionOne > .message {
     font-size: 0.9em;
   }
 }
 
 /*Section 2 - 1*/
 
-.CardBgSectionTwo{
+.CardBgSectionTwo {
   text-align: center;
   margin-bottom: 100px;
 }
 
-.titleSection2{
+.titleSection2 {
   color: #f2f2f2;
   font-size: 4em;
 }
 
-.sectionContent{
+.sectionContent {
   margin-bottom: 80px;
 }
 
-.CardImageBorder{
+.CardImageBorder {
   background-color: #f2f2f2;
   border-radius: 30px;
   border: #2e282a;
@@ -112,7 +111,7 @@
   transform: rotate(-5deg);
 }
 
-.CardImageContent{
+.CardImageContent {
   text-align: center;
   background-color: #ffb703;
   border-radius: 30px;
@@ -122,12 +121,12 @@
   transform: rotate(5deg);
 }
 
-.CardImageContent > img{
+.CardImageContent > img {
   width: 100%;
   border-radius: 30px;
 }
 
-.CardBgSectionTwoText{
+.CardBgSectionTwoText {
   margin-top: 20px;
   text-align: center;
   background-color: #f2f2f2;
@@ -137,46 +136,45 @@
   padding: 5%;
 }
 
-.CardBgSectionTwoText > .text{
+.CardBgSectionTwoText > .text {
   color: #000;
   font-size: 1.4em;
 }
 
-.ButtonSec2{
+.ButtonSec2 {
   margin-top: 50px;
   text-align: center;
 }
 
 @media (max-width: 1000px) {
-  
-  .mobileReduccion{
+  .mobileReduccion {
     width: 73%;
     margin-left: auto;
     margin-right: auto;
   }
-  .CardBgSectionTwo{
+  .CardBgSectionTwo {
     margin-bottom: 25px;
   }
-  
-  .titleSection2{
+
+  .titleSection2 {
     color: #f2f2f2;
     font-size: 2em;
   }
 
-  .CardImageBorder{
+  .CardImageBorder {
     margin-bottom: 30px;
   }
 
-  .sectionContent{
+  .sectionContent {
     margin-bottom: 30px;
   }
-  
-  .CardImageContent > img{
+
+  .CardImageContent > img {
     width: 100%;
     border-radius: 30px;
   }
-  
-  .CardBgSectionTwoText{
+
+  .CardBgSectionTwoText {
     margin-top: 10px;
     text-align: center;
     background-color: #f2f2f2;
@@ -185,13 +183,13 @@
     border-bottom-left-radius: 50px;
     padding: 5%;
   }
-  
-  .CardBgSectionTwoText > .text{
+
+  .CardBgSectionTwoText > .text {
     color: #000;
     font-size: 1em;
   }
-  
-  .ButtonSec2{
+
+  .ButtonSec2 {
     margin-top: 25px;
     text-align: center;
   }
@@ -199,21 +197,21 @@
 
 /*Section 2 - 2*/
 
-.CardBgSectionTwoTwo{
+.CardBgSectionTwoTwo {
   text-align: center;
   margin-bottom: 100px;
 }
 
-.titleSection2Two{
+.titleSection2Two {
   color: #f2f2f2;
   font-size: 4em;
 }
 
-.sectionContentTwo{
+.sectionContentTwo {
   margin-bottom: 80px;
 }
 
-.CardImageBorderTwo{
+.CardImageBorderTwo {
   background-color: #f2f2f2;
   border-radius: 30px;
   border: #2e282a;
@@ -222,7 +220,7 @@
   transform: rotate(5deg);
 }
 
-.CardImageContentTwo{
+.CardImageContentTwo {
   text-align: center;
   background-color: #ffb703;
   border-radius: 30px;
@@ -238,7 +236,7 @@
   height: 250px;
 }
 
-.CardBgSectionTwoTextTwo{
+.CardBgSectionTwoTextTwo {
   margin-top: 20px;
   text-align: center;
   background-color: #f2f2f2;
@@ -248,47 +246,46 @@
   padding: 5%;
 }
 
-.CardBgSectionTwoTextTwo > .text{
+.CardBgSectionTwoTextTwo > .text {
   color: #000;
   font-size: 1.4em;
 }
 
-.ButtonSec2Two{
+.ButtonSec2Two {
   margin-top: 50px;
   text-align: center;
 }
 
 @media (max-width: 1000px) {
-  
-  .mobileReduccionTwo{
+  .mobileReduccionTwo {
     width: 73%;
     margin-left: auto;
     margin-right: auto;
   }
-  .CardBgSectionTwoTwo{
+  .CardBgSectionTwoTwo {
     margin-bottom: 25px;
   }
-  
-  .titleSection2Two{
+
+  .titleSection2Two {
     color: #f2f2f2;
     font-size: 2em;
   }
 
-  .CardImageBorderTwo{
+  .CardImageBorderTwo {
     margin-bottom: 30px;
   }
 
-  .sectionContentTwo{
+  .sectionContentTwo {
     margin-bottom: 30px;
   }
-  
-  .videoIframeSec2{
+
+  .videoIframeSec2 {
     width: 100%;
     border-radius: 30px;
     height: 120px;
   }
-  
-  .CardBgSectionTwoTextTwo{
+
+  .CardBgSectionTwoTextTwo {
     margin-top: 10px;
     text-align: center;
     background-color: #f2f2f2;
@@ -297,28 +294,27 @@
     border-bottom-left-radius: 50px;
     padding: 5%;
   }
-  
-  .CardBgSectionTwoTextTwo > .text{
+
+  .CardBgSectionTwoTextTwo > .text {
     color: #000;
     font-size: 1em;
   }
-  
-  .ButtonSec2Two{
+
+  .ButtonSec2Two {
     margin-top: 25px;
     text-align: center;
   }
 }
 
 /*Section 2-3*/
-.centerText{
+.centerText {
   margin-top: 100px;
   font-size: 2em;
   text-align: center;
   background-color: #ffb703;
   border-radius: 50px;
-  
 }
-.centerText > .bgNumber{
+.centerText > .bgNumber {
   text-align: center;
   background-color: #f2f2f2;
   border: #2e282a;
@@ -327,14 +323,14 @@
   border-radius: 10px;
 }
 
-.centerText2{
+.centerText2 {
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-right:auto;
+  margin-right: auto;
 }
 
-.img1{
+.img1 {
   text-align: center;
   width: 100px;
   background-image: url(./../img/img1Home.jpg);
@@ -344,7 +340,7 @@
   border-radius: 50px;
 }
 
-.img2{
+.img2 {
   text-align: center;
   width: 100px;
   background-image: url(./../img/img2Home.jpg);
@@ -354,7 +350,7 @@
   border-radius: 50px;
 }
 
-.img3{
+.img3 {
   text-align: center;
   width: 100px;
   background-image: url(./../img/img3Home.jpg);
@@ -364,7 +360,7 @@
   border-radius: 50px;
 }
 
-.img4{
+.img4 {
   text-align: center;
   width: 100px;
   background-image: url(./../img/img4Home.jpg);
@@ -374,7 +370,7 @@
   border-radius: 50px;
 }
 
-.img5{
+.img5 {
   text-align: center;
   width: 100px;
   background-image: url(./../img/img5Home.jpg);
@@ -384,30 +380,30 @@
   border-radius: 50px;
 }
 
-.ButtonSec2Three{
+.ButtonSec2Three {
   margin-top: 100px;
   text-align: center;
 }
 
-.marginR{
+.marginR {
   margin-right: 1%;
 }
 
 @media (max-width: 1000px) {
-  .mobileReduccionThree{
+  .mobileReduccionThree {
     width: 73%;
     margin-left: auto;
     margin-right: auto;
   }
-  
-  .centerText2{
+
+  .centerText2 {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-right:auto;
+    margin-right: auto;
   }
 
-  .img2{
+  .img2 {
     text-align: center;
     width: 100px;
     background-image: url(./../img/img2Home.jpg);
@@ -416,96 +412,95 @@
     padding: 50%;
     border-radius: 50px;
   }
-  .centerText{
+  .centerText {
     margin-top: 50px;
     font-size: 1em;
     text-align: center;
     background-color: #ffb703;
     border-radius: 50px;
-    
   }
-  .centerText > .bgNumber{
+  .centerText > .bgNumber {
     padding: 1.3%;
   }
-  
-  .marginR{
+
+  .marginR {
     margin-right: 1.5%;
   }
-  .ButtonSec2Three{
+  .ButtonSec2Three {
     margin-top: 50px;
     text-align: center;
   }
 }
 
 /*Section Three */
-.sizeFont{
+.sizeFont {
   font-size: 0.83em;
 }
 
 @media (max-width: 1000px) {
-  .mobileReduccionThree{
+  .mobileReduccionThree {
     width: 73%;
     margin-left: auto;
     margin-right: auto;
   }
-  .Jumbotron{
+  .Jumbotron {
     margin-top: 100px;
   }
-  .sizeFontTitle{
+  .sizeFontTitle {
     font-size: 1.1em !important;
   }
-  .sizeFont{
+  .sizeFont {
     font-size: 0.7em !important;
   }
 }
 
 /*Comunidad*/
-.BgGradientComunidad{
+.BgGradientComunidad {
   background-color: #fff1d0;
   background-image: url(./../img/puerto-velero/puerto-velero-buque.jpg);
   filter: grayscale(30%);
   background-size: cover;
 }
 
-.centerTextForum{
+.centerTextForum {
   text-align: center;
 }
 
-.centerPagination{
+.centerPagination {
   margin: 0 auto;
 }
 
 /*Perfil*/
-.BgGradientPerfil{
+.BgGradientPerfil {
   background-color: #fff1d0;
   background-image: url(./../img/bocas-de-ceniza/bocas-de-ceniza-muelle.jpg);
   filter: grayscale(30%);
   background-size: cover;
 }
 
-.ProfileImage{
+.ProfileImage {
   text-align: center;
   margin: 0 auto;
   width: 300px;
 }
 
-.ProfileImage > img{
+.ProfileImage > img {
   width: 100%;
   border-radius: 100%;
 }
 
-.imgMedia{
+.imgMedia {
   text-align: center;
   margin-right: 10px;
   width: 200px;
 }
 
-.imgMedia > img{
+.imgMedia > img {
   width: 100%;
   border-radius: 10%;
 }
 
-.centerItems{
+.centerItems {
   text-align: center;
   margin: 0 auto;
 }
@@ -516,18 +511,18 @@
 }
 
 @media (max-width: 1000px) {
-  .mobileReduccionProfile{
+  .mobileReduccionProfile {
     width: 73%;
     margin-left: auto;
     margin-right: auto;
   }
-  .JumbotronProfile{
+  .JumbotronProfile {
     margin-top: 100px;
   }
-  .sizeFontTitle{
+  .sizeFontTitle {
     font-size: 1.1em !important;
   }
-  .sizeFont{
+  .sizeFont {
     font-size: 0.7em !important;
   }
 }
@@ -539,44 +534,59 @@
   width: 100%;
 }
 /*Agenda*/
-.bgGreenCita{
-  background-color: #87a868;
+.bgGreenCita {
   height: 68px;
 }
-.imagenCita{
+.imagenCita {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
+  mask-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.85) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.85) 100%
+  );
 }
 
-.image_card{
+.image_card {
   height: 68px;
+  position: relative;
 }
 
-.tituloCita{
-  text-align: center;
+.tituloCita {
+  position: absolute;
+  width: 50%;
+  color: #303030;
+  font-size: 1rem;
+  font-weight: 600;
+  bottom: 0%;
+  left: 12%;
 }
 
-.card_horario{
+.card_horario {
   max-width: 100%;
   max-height: 100px;
+  cursor: pointer;
 }
-
 
 /*Perfil*/
 /*Lugar*/
-.mapaTop{
+.mapaTop {
   margin-top: 97px;
 }
-.main1{
+.main1 {
   height: 720px;
   width: 100%;
 }
-.colorStar{
+.colorStar {
   color: #ffb703;
 }
-.scrolling{
+.scrolling {
   width: 100%;
   height: 800px;
   overflow-y: scroll;

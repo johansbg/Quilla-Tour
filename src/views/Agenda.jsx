@@ -9,15 +9,17 @@ import {
   Appointments,
   AppointmentTooltip,
   TodayButton,
-} from '@devexpress/dx-react-scheduler-material-ui';
-import Select from "@material-ui/core/Select";
-import MenuItem from "@material-ui/core/MenuItem";
-import { withStyles } from "@material-ui/core/styles";
-import img1 from './../assets/img/eventos/carnaval.jpg';
-import img2 from './../assets/img/eventos/batalla.jpg';
-import img3 from './../assets/img/eventos/junior.jpeg';
+} from "@devexpress/dx-react-scheduler-material-ui";
+import img1 from "./../assets/img/eventos/carnaval.jpg";
+import img2 from "./../assets/img/eventos/batalla.jpg";
+import img3 from "./../assets/img/eventos/junior.jpeg";
 import { Link } from "react-router-dom";
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from "reactstrap";
+import {
+  Header,
+  Content,
+  CommandButton,
+} from "./../components/agenda/CitaTooltip";
 
 const appointments = [
   {
@@ -26,7 +28,6 @@ const appointments = [
     endDate: new Date(2018, 5, 25, 15, 0),
     fondo: img1,
     // link:
-    
   },
   {
     title: "Batalla de flores",
@@ -41,57 +42,116 @@ const appointments = [
     endDate: new Date(2018, 5, 29, 15, 0),
     fondo: img3,
     // link:
-  }
+  },
 ];
 
-
-const initialState = {
-  data: appointments
+const Appointment = ({
+  style,
+  children,
+  data,
+  onClick,
+  classes,
+  updateEverything,
+  ...restProps
+}) => {
+  return (
+    <Appointments.Appointment
+      {...restProps}
+      style={{
+        ...style,
+        backgroundColor: "#FFFFFF",
+      }}
+    >
+      <>
+        <div
+          className="card_horario"
+          onClick={({ target }) => {
+            updateEverything({
+              target:
+                target.parentElement.parentElement.parentElement.parentElement
+                  .parentElement.parentElement,
+              data,
+            });
+          }}
+        >
+          <div className="bgGreenCita">
+            <Row>
+              <Col xs="12" className="image_card">
+                <img
+                  src={data.fondo}
+                  className="imagenCita"
+                  alt="Quilla-Tour"
+                />
+                <h5 className="tituloCita">{data.title}</h5>
+              </Col>
+            </Row>
+          </div>
+        </div>
+      </>
+    </Appointments.Appointment>
+  );
 };
 
-const renderAppointment = (model) => {
-  return(
-    <>
-      <div className="card_horario">
-        <div className="bgGreenCita">
-          <Row>
-            <Col xs="4" className="image_card"> 
-              <img src={model.data.fondo} className="imagenCita" alt="Quilla-Tour" />
-            </Col>
-            <Col xs="8">
-               <p className="m-0 tituloCita">{model.data.title}</p>
-              <Link to="/" className="m-0" >Más información</Link>
-            </Col>
-          </Row>
-        </div>
-      </div>
-    </>
-  )
-}
+const initialState = {
+  data: appointments,
+  visible: false,
+  appointmentMeta: {
+    target: null,
+    data: {},
+  },
+};
 
-function Agenda(props) {
-  const [ state ] = useState(initialState);
+const Agenda = (props) => {
+  const [state, setState] = useState(initialState);
 
-  const { data } = state;
+  const { data, appointmentMeta, visible } = state;
+
+  const toggleVisibility = () => {
+    const { visible: tooltipVisibility } = state;
+    setState({ ...state, visible: !tooltipVisibility });
+  };
+
+  const onAppointmentMetaChange = ({ data, target }) => {
+    setState({ ...state, appointmentMeta: { data, target } });
+  };
+
+  const updateEverything = ({ data, target }) => {
+    const { visible: tooltipVisibility } = state;
+    setState({
+      ...state,
+      visible: !tooltipVisibility,
+      appointmentMeta: { data, target },
+    });
+  };
+
+  const renderAppointment = (props) => {
+    return <Appointment {...props} updateEverything={updateEverything} />;
+  };
 
   return (
     <>
       <Paper>
-        <Scheduler
-          data={data}
-        >
-          <ViewState
-            defaultCurrentDate="2018-07-27"
-          />
+        <Scheduler data={data}>
+          <ViewState defaultCurrentDate="2018-07-27" />
           <MonthView />
           <Toolbar />
           <DateNavigator />
           <TodayButton />
-          <Appointments appointmentComponent={renderAppointment}/>
+          <Appointments appointmentComponent={renderAppointment} />
+          <AppointmentTooltip
+            headerComponent={Header}
+            contentComponent={Content}
+            commandButtonComponent={CommandButton}
+            visible={visible}
+            onVisibilityChange={toggleVisibility}
+            appointmentMeta={appointmentMeta}
+            onAppointmentMetaChange={onAppointmentMetaChange}
+            showCloseButton
+          />
         </Scheduler>
       </Paper>
     </>
   );
-}
+};
 
 export default Agenda;
