@@ -1,5 +1,6 @@
 import { useState, useCallback, useMemo, useEffect } from "react";
 import Paper from "@material-ui/core/Paper";
+import NavbarComponent from "../components/home/NavbarComponent";
 import { ViewState } from "@devexpress/dx-react-scheduler";
 import {
   Scheduler,
@@ -10,86 +11,149 @@ import {
   AppointmentTooltip,
   TodayButton,
 } from "@devexpress/dx-react-scheduler-material-ui";
-import Select from "@material-ui/core/Select";
-import MenuItem from "@material-ui/core/MenuItem";
-import { withStyles } from "@material-ui/core/styles";
-import img from "./../assets/img/backgroundHomeS1.jpg";
+import img1 from "./../assets/img/eventos/carnaval.jpg";
+import img2 from "./../assets/img/eventos/batalla.jpg";
+import img3 from "./../assets/img/eventos/junior.jpeg";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
+import {
+  Header,
+  Content,
+  CommandButton,
+} from "./../components/agenda/CitaTooltip";
 
 const appointments = [
   {
     title: "Carnaval",
-    startDate: new Date(2018, 5, 25, 12, 35),
-    endDate: new Date(2018, 5, 25, 15, 0),
+    startDate: new Date(2021, 5,3 , 12, 35),
+    endDate: new Date(2021, 5, 3, 15, 0),
+    fondo: img1,
+    // link:
   },
   {
     title: "Batalla de flores",
-    startDate: new Date(2018, 5, 26, 12, 35),
-    endDate: new Date(2018, 5, 26, 15, 0),
-  },
-  {
-    title: "Paro",
-    startDate: new Date(2018, 5, 27, 12, 35),
-    endDate: new Date(2018, 5, 27, 15, 0),
-  },
-  {
-    title: "asdasdsa",
-    startDate: new Date(2018, 5, 28, 12, 35),
-    endDate: new Date(2018, 5, 28, 15, 0),
+    startDate: new Date(2021, 5, 4, 12, 35),
+    endDate: new Date(2021, 5, 4, 15, 0),
+    fondo: img2,
+    // link:
   },
   {
     title: "Junior vs Nacional",
-    startDate: new Date(2018, 5, 29, 12, 35),
-    endDate: new Date(2018, 5, 29, 15, 0),
+    startDate: new Date(2021, 5, 1, 12, 35),
+    endDate: new Date(2021, 5, 1, 15, 0),
+    fondo: img3,
+    // link:
   },
 ];
 
-const initialState = {
-  data: appointments,
-};
-
-const renderAppointment = (model) => {
+const Appointment = ({
+  style,
+  children,
+  data,
+  onClick,
+  classes,
+  updateEverything,
+  ...restProps
+}) => {
   return (
-    <>
-      <Container fluid>
-        <div className="bgGreenCita">
-          <Row>
-            <Col xs="4">
-              <img src={img} className="imagenCita" alt="Quilla-Tour" />
-            </Col>
-            <Col xs="8">
-              <p className="m-0 tituloCita">{model.data.title}</p>
-              <Link to="/" className="m-0">
-                Ver informacion del Evento
-              </Link>
-            </Col>
-          </Row>
+    <Appointments.Appointment
+      {...restProps}
+      style={{
+        ...style,
+        backgroundColor: "#FFFFFF",
+      }}
+    >
+      <>
+        <div
+          className="card_horario"
+          onClick={({ target }) => {
+            updateEverything({
+              target:
+                target.parentElement.parentElement.parentElement.parentElement
+                  .parentElement.parentElement,
+              data,
+            });
+          }}
+        >
+          <div className="bgGreenCita">
+            <Row>
+              <Col xs="12" className="image_card">
+                <img
+                  src={data.fondo}
+                  className="imagenCita"
+                  alt="Quilla-Tour"
+                />
+                <h5 className="tituloCita">{data.title}</h5>
+              </Col>
+            </Row>
+          </div>
         </div>
-      </Container>
-    </>
+      </>
+    </Appointments.Appointment>
   );
 };
 
-function Agenda(props) {
-  const [state] = useState(initialState);
+const initialState = {
+  data: appointments,
+  visible: false,
+  appointmentMeta: {
+    target: null,
+    data: {},
+  },
+};
 
-  const { data } = state;
+const Agenda = (props) => {
+  const [state, setState] = useState(initialState);
+
+  const { data, appointmentMeta, visible } = state;
+
+  const toggleVisibility = () => {
+    const { visible: tooltipVisibility } = state;
+    setState({ ...state, visible: !tooltipVisibility });
+  };
+
+  const onAppointmentMetaChange = ({ data, target }) => {
+    setState({ ...state, appointmentMeta: { data, target } });
+  };
+
+  const updateEverything = ({ data, target }) => {
+    const { visible: tooltipVisibility } = state;
+    setState({
+      ...state,
+      visible: !tooltipVisibility,
+      appointmentMeta: { data, target },
+    });
+  };
+
+  const renderAppointment = (props) => {
+    return <Appointment {...props} updateEverything={updateEverything} />;
+  };
 
   return (
     <>
-      <Paper>
+    <NavbarComponent color={"dark"} />
+      <Paper style = {{marginTop: "75px"}}>
         <Scheduler data={data}>
-          <ViewState defaultCurrentDate="2018-07-27" />
+          <ViewState defaultCurrentDate="2021-06-03" />
           <MonthView />
           <Toolbar />
           <DateNavigator />
           <TodayButton />
           <Appointments appointmentComponent={renderAppointment} />
+          <AppointmentTooltip
+            headerComponent={Header}
+            contentComponent={Content}
+            commandButtonComponent={CommandButton}
+            visible={visible}
+            onVisibilityChange={toggleVisibility}
+            appointmentMeta={appointmentMeta}
+            onAppointmentMetaChange={onAppointmentMetaChange}
+            showCloseButton
+          />
         </Scheduler>
       </Paper>
     </>
   );
-}
+};
 
 export default Agenda;
