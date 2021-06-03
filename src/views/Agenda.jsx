@@ -1,5 +1,6 @@
 import { useState, useCallback, useMemo, useEffect } from "react";
 import Paper from "@material-ui/core/Paper";
+import NavbarComponent from "../components/home/NavbarComponent";
 import { ViewState } from "@devexpress/dx-react-scheduler";
 import {
   Scheduler,
@@ -24,22 +25,22 @@ import {
 const appointments = [
   {
     title: "Carnaval",
-    startDate: new Date(2018, 5, 25, 12, 35),
-    endDate: new Date(2018, 5, 25, 15, 0),
+    startDate: new Date(2021, 5,3 , 12, 35),
+    endDate: new Date(2021, 5, 3, 15, 0),
     fondo: img1,
     // link:
   },
   {
     title: "Batalla de flores",
-    startDate: new Date(2018, 5, 26, 12, 35),
-    endDate: new Date(2018, 5, 26, 15, 0),
+    startDate: new Date(2021, 5, 4, 12, 35),
+    endDate: new Date(2021, 5, 4, 15, 0),
     fondo: img2,
     // link:
   },
   {
     title: "Junior vs Nacional",
-    startDate: new Date(2018, 5, 29, 12, 35),
-    endDate: new Date(2018, 5, 29, 15, 0),
+    startDate: new Date(2021, 5, 1, 12, 35),
+    endDate: new Date(2021, 5, 1, 15, 0),
     fondo: img3,
     // link:
   },
@@ -130,9 +131,10 @@ const Agenda = (props) => {
 
   return (
     <>
-      <Paper>
+    <NavbarComponent color={"dark"} />
+      <Paper style = {{marginTop: "75px"}}>
         <Scheduler data={data}>
-          <ViewState defaultCurrentDate="2018-07-27" />
+          <ViewState defaultCurrentDate="2021-06-03" />
           <MonthView />
           <Toolbar />
           <DateNavigator />
