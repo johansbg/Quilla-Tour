@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Quilla-Tour/static/css/main.8e12ea24.chunk.css",
-    "main.js": "/Quilla-Tour/static/js/main.dbd79331.chunk.js",
-    "main.js.map": "/Quilla-Tour/static/js/main.dbd79331.chunk.js.map",
-    "runtime-main.js": "/Quilla-Tour/static/js/runtime-main.76636fc0.js",
-    "runtime-main.js.map": "/Quilla-Tour/static/js/runtime-main.76636fc0.js.map",
+    "main.css": "/Quilla-Tour/static/css/main.03447d15.chunk.css",
+    "main.js": "/Quilla-Tour/static/js/main.a5ce24f3.chunk.js",
+    "main.js.map": "/Quilla-Tour/static/js/main.a5ce24f3.chunk.js.map",
+    "runtime-main.js": "/Quilla-Tour/static/js/runtime-main.0fdbaa60.js",
+    "runtime-main.js.map": "/Quilla-Tour/static/js/runtime-main.0fdbaa60.js.map",
     "static/css/2.150d169a.chunk.css": "/Quilla-Tour/static/css/2.150d169a.chunk.css",
-    "static/js/2.c85557d6.chunk.js": "/Quilla-Tour/static/js/2.c85557d6.chunk.js",
-    "static/js/2.c85557d6.chunk.js.map": "/Quilla-Tour/static/js/2.c85557d6.chunk.js.map",
-    "static/js/3.7d918d5b.chunk.js": "/Quilla-Tour/static/js/3.7d918d5b.chunk.js",
-    "static/js/3.7d918d5b.chunk.js.map": "/Quilla-Tour/static/js/3.7d918d5b.chunk.js.map",
+    "static/js/2.d0f87a70.chunk.js": "/Quilla-Tour/static/js/2.d0f87a70.chunk.js",
+    "static/js/2.d0f87a70.chunk.js.map": "/Quilla-Tour/static/js/2.d0f87a70.chunk.js.map",
+    "static/js/3.381fbe2b.chunk.js": "/Quilla-Tour/static/js/3.381fbe2b.chunk.js",
+    "static/js/3.381fbe2b.chunk.js.map": "/Quilla-Tour/static/js/3.381fbe2b.chunk.js.map",
     "index.html": "/Quilla-Tour/index.html",
     "static/css/2.150d169a.chunk.css.map": "/Quilla-Tour/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.8e12ea24.chunk.css.map": "/Quilla-Tour/static/css/main.8e12ea24.chunk.css.map",
-    "static/js/2.c85557d6.chunk.js.LICENSE.txt": "/Quilla-Tour/static/js/2.c85557d6.chunk.js.LICENSE.txt",
+    "static/css/main.03447d15.chunk.css.map": "/Quilla-Tour/static/css/main.03447d15.chunk.css.map",
+    "static/js/2.d0f87a70.chunk.js.LICENSE.txt": "/Quilla-Tour/static/js/2.d0f87a70.chunk.js.LICENSE.txt",
     "static/media/Antigua_Aduana_de_Barranquilla.jpg": "/Quilla-Tour/static/media/Antigua_Aduana_de_Barranquilla.3c189952.jpg",
     "static/media/Barranquilla_-_Paseo_de_Bolívar.jpg": "/Quilla-Tour/static/media/Barranquilla_-_Paseo_de_Bolívar.69a23740.jpg",
     "static/media/BgComunity.png": "/Quilla-Tour/static/media/BgComunity.a3d6579d.png",
@@ -77,10 +77,10 @@
     "static/media/zoologico-tigre.jpg": "/Quilla-Tour/static/media/zoologico-tigre.b93ed19b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.76636fc0.js",
+    "static/js/runtime-main.0fdbaa60.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.c85557d6.chunk.js",
-    "static/css/main.8e12ea24.chunk.css",
-    "static/js/main.dbd79331.chunk.js"
+    "static/js/2.d0f87a70.chunk.js",
+    "static/css/main.03447d15.chunk.css",
+    "static/js/main.a5ce24f3.chunk.js"
   ]
 }
