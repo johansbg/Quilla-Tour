@@ -35,7 +35,7 @@ function NavbarComponent () {
                         <Collapse isOpen={isOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem className="mr-5">
-                                    <NavLink to="/" style={{color: 'white'}}>Incio</NavLink>
+                                    <a href="/Quilla-Tour" style={{color: 'white'}}>Inicio</a>
                                 </NavItem>
                                 <NavItem className="mr-5">
                                     <NavLink to="/Quilla-Tour/InformacionDeLaCiudad2/MostrarNoticias" style={{color: 'white'}}>Noticias</NavLink>
@@ -64,6 +64,7 @@ function NavbarComponent () {
                                 <Route path="/Quilla-Tour/InformacionDeLaCiudad2/Historia">
                                     <Historia/>
                                 </Route>    
+                                
                                 <MostrarNoticias/>
                             </Switch>
 
