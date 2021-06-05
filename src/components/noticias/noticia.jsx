@@ -9,7 +9,7 @@ import {
     Link, Route, Switch
     } from "react-router-dom";
 
-import NoticiaAmpliada from './NoticiaAmpliada'
+import NoticiaAmpliada from './noticiaAmpliada'
 import MostrarAnuncios from './MostrarAnuncios'
 
 function Noticia(props) {

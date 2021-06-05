@@ -1,5 +1,5 @@
 import React from "react";
-import Noticias from './Noticias'
+import Noticias from './noticias'
 import Anuncios from './Anuncios'
 
 class Informacion extends React.Component {
