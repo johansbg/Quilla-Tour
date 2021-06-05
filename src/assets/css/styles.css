@@ -553,6 +553,24 @@
   );
 }
 
+.centrarTituloAnuncios{
+  text-align: center;
+  font-size: 3em;
+  /* background-color: "#b68428"; */
+  color: #000000;
+
+}
+
+.centrarTituloNoticias{
+  text-align: center;
+  font-size: 3em;
+  color: #925107;
+}
+
+.alinearTextoHistoria{
+  text-align: justify;
+}
+/*Perfil*/
 .image_card {
   height: 68px;
   position: relative;

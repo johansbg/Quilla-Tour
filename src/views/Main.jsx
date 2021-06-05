@@ -1,4 +1,3 @@
-//
 import React from "react";
 import Informacion from "./Informacion";
 import Home from "./Home";
