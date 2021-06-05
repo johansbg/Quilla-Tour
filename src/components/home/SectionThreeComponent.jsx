@@ -23,7 +23,7 @@ function SectionThreeComponent() {
     const validate = values => {
         const errors = {};
         if (!values.firstName) {
-            errors.firstName = 'El nombre es requerido';
+            errors.firstName = 'El Nombre es requerido';
             setValidFirstName(true);
         } else if (values.firstName.length > 15) {
             errors.firstName = 'El nombre debe ser menor a 15 caracteres';
@@ -33,30 +33,30 @@ function SectionThreeComponent() {
         }
         
         if (!values.lastName) {
-            errors.lastName = 'Required';
+            errors.lastName = 'El Apellido es requerido';
             setValidLastName(true);
         } else if (values.lastName.length > 20) {
-            errors.lastName = 'Must be 20 characters or less';
+            errors.lastName = 'El Apellido debe ser menor a 20 caracteres';
             setValidLastName(true);
         } else {
             setValidLastName(false);
         }
         
         if (!values.email) {
-            errors.email = 'Required';
+            errors.email = 'El Correo es requerido';
             setValidEmail(true);
         } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
-            errors.email = 'Invalid email address';
+            errors.email = 'Email Invalido';
             setValidEmail(true);
         } else {
             setValidEmail(false);
         }
         
         if (!values.message) {
-            errors.message = 'Required';
+            errors.message = 'El Mensaje es requerido';
             setValidMessage(true);
         } else if (values.message.length > 200) {
-            errors.message = 'Must be 200 characters or less';
+            errors.message = 'El Mensaje debe ser menor a 200 caracteres';
             setValidMessage(true);
         } else {
             setValidMessage(false);
@@ -80,41 +80,41 @@ function SectionThreeComponent() {
         <>
         <Container>
         <Row>
-            <Col md={6}>
-                <div>
+            <Col className="Jumbotron" xs={12} md={6}>
+                <div className="mobileReduccionThree">
                 <Jumbotron>
-                    <h2 className="display-4">QUILLA-TOUR</h2>
-                    <p className="lead">Lorem Ipsum is simply dummy text of the s stank a galley o, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <h2 className="display-4 sizeFontTitle">QUILLA-TOUR</h2>
+                    <p className=" sizeFont">Lorem Ipsum is simply dummy text o. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     <hr className="my-2" />
                     <br/>
-                    <p>Barranquilla quien no te conoce te sueña y quien te conoce jamas te olvida.</p>
+                    <p className=" sizeFont">Barranquilla quien no te conoce te sueña y quien te conoce jamas te olvida.</p>
                     <br/>
                     <Row>
-                        <Col md={3}> 
+                        <Col xs={3}> 
                             <FontAwesomeIcon  icon={faTwitter}/> 
                         </Col>
-                        <Col md={3}> 
+                        <Col xs={3}> 
                             <FontAwesomeIcon  icon={faFacebookSquare}/> 
                         </Col>
-                        <Col md={3}> 
+                        <Col xs={3}> 
                             <FontAwesomeIcon  icon={faGithub}/> 
                         </Col>
-                        <Col md={3}> 
+                        <Col xs={3}> 
                             <FontAwesomeIcon  icon={faLinkedin}/> 
                         </Col>
                     </Row>   
                 </Jumbotron>
                 </div>
             </Col>
-            <Col md={6}>
-                <div>
+            <Col xs={12} md={6}>
+                <div className="mobileReduccionThree" >
                     <Jumbotron>
-                        <h4 className="display-4">Contactanos</h4>
+                        <h4 className="display-4 sizeFontTitle">Contactanos</h4>
                         <Form onSubmit={formik.handleSubmit}>
                         <Row>
                             <Col xs="12" md="6">
                             <FormGroup>
-                                <Label htmlFor="firstName">Primer Nombre</Label>
+                                <Label className="sizeFont" htmlFor="firstName">Primer Nombre</Label>
                                 <Input
                                     invalid={validFirstName} 
                                     id="firstName"
@@ -128,7 +128,7 @@ function SectionThreeComponent() {
                             </Col>
                             <Col xs="12" md="6">
                                 <FormGroup>
-                                    <Label htmlFor="lastName">Apellido</Label>
+                                    <Label className="sizeFont"  htmlFor="lastName">Apellido</Label>
                                     <Input
                                         invalid={validLastName} 
                                         id="lastName"
@@ -142,7 +142,7 @@ function SectionThreeComponent() {
                             </Col>
                             <Col xs="12">
                                 <FormGroup>
-                                    <Label htmlFor="email">Correo</Label>
+                                    <Label className="sizeFont"  htmlFor="email">Correo</Label>
                                     <Input
                                         invalid={validEmail} 
                                         id="email"
@@ -156,7 +156,7 @@ function SectionThreeComponent() {
                             </Col>
                             <Col xs="12">
                             <FormGroup>
-                                <Label htmlFor="message">Mensaje</Label>
+                                <Label className="sizeFont"  htmlFor="message">Mensaje</Label>
                                 <Input
                                     invalid={validMessage} 
                                     id="message"
@@ -169,8 +169,11 @@ function SectionThreeComponent() {
                                 {formik.errors.message ? <FormFeedback >{formik.errors.message}</FormFeedback> : null}
                             </FormGroup>
                             </Col>
-                            <Col xs="12">
-                                <Button type="submit" size="lg" style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }}>Submit</Button>
+                            <Col xs="12" className=" d-none d-sm-block">
+                                <Button type="submit" size="lg" style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }}>Enviar</Button>
+                            </Col>
+                            <Col xs="12" className=" d-none d-block d-sm-none">
+                                <Button type="submit" size="xs" style={{ backgroundColor: "#AAD87F", borderColor:"#AAD87F" }}>Enviar</Button>
                             </Col>
                             </Row>
                         </Form>

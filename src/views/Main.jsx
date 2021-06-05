@@ -1,23 +1,28 @@
 import React from "react";
 import Informacion from "./Informacion";
-// import Informacion2 from "./Informacion";
-import Historia from "../components/noticias/Historia";
-import MostrarNoticias from "../components/noticias/MostrarNoticias"
-// import NoticiaAmpliada from "../components/noticias/NoticiaAmpliada";
 import Home from "./Home";
+import Comunidad from "./Comunidad";
+import Explora from "./Explora";
+import Perfil from "./Perfil";
+import Agenda from "./Agenda";
+import Lugar from "./Lugar";
+import DescripLugar from "./DescripLugar";
+import Servicios from "./ServiciosTuristicos";
 import { Switch, Route, Redirect, withRouter } from "react-router-dom";
 import "../fontawesome";
-import NoticiaAmpliada from "../components/noticias/NoticiaAmpliada";
 
 function Main() {
   return (
     <Switch>
       <Route exact path="/Quilla-Tour" component={Home}/>
+      <Route exact path="/Quilla-Tour/Comunidad" component={Comunidad}/>
       <Route exact path="/Quilla-Tour/InformacionDeLaCiudad" component={Informacion}/>
-      <Route exact path="/Quilla-Tour/InformacionDeLaCiudad/MostrarNoticias" component={MostrarNoticias}/>
-      {/* <Route exact path="/Quilla-Tour/InformacionDeLaCiudad/" component={Informacion2}/> */}
-      <Route exact path="/Quilla-Tour/InformacionDeLaCiudad/Historia" component={Historia}/>
-      <Route exact path="/Quilla-Tour/InformacionDeLaCiudad/NoticiaAmpliada" component={withRouter(NoticiaAmpliada)}/>
+      <Route exact path="/Quilla-Tour/Explora" component={Explora} />
+      <Route exact path="/Quilla-Tour/Perfil" component={Perfil} />
+      <Route exact path="/Quilla-Tour/Agenda" component={Agenda} />
+      <Route exact path="/Quilla-Tour/Lugar" component={Lugar} />
+      <Route exact path="/Quilla-Tour/ServiciosTuristicos" component={Servicios} />
+      <Route exact path="/Quilla-Tour/DescripcionLugar" component={DescripLugar} />
       <Redirect to="/Quilla-Tour" />
     </Switch>
   );
